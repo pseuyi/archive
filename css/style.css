@@ -34,7 +34,8 @@ h3 {
 .project {
 	width: 140px;
 	height: 240px;
-	border: solid 20px #eae43a;
+	/*border: solid 20px #eae43a;*/
+	border: solid 1px black;
 }
 .footer {
 	margin-top: 4em;
