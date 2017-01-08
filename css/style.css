@@ -3,7 +3,7 @@ body {
 	padding: 2em 2em;
 /*	background: #fffdef;*/
 /*	background: #f2f1ed;*/
-	background: white;
+	background-image: url("../assets/concrete_wall.png");
 	color: black;
 	font-weight: light;
 	font-size: 11px;
