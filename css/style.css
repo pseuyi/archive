@@ -3,21 +3,31 @@ body {
 	padding: 2em 2em;
 /*	background: #fffdef;*/
 /*	background: #f2f1ed;*/
-	background-image: url("../assets/concrete_wall.png");
+/*	background-image: url("../assets/concrete_wall.png");*/
+	background: white;
 	color: black;
 	font-weight: light;
 	font-size: 11px;
 }
-
+a {
+	text-decoration: none;
+	color: black;
+}
+a:hover {
+	text-decoration: none;
+	color: red;
+/*	box-shadow: */
+}
 h1 {
-	font-size: 1em;
-	font-weight: normal;
+	font-size: 1.1em;
+	font-weight: bolder;
 	margin: 0 0.2em;
+	color: red;
 }
 
 h3 {
-	display: none;
-	color: black;
+/*	display: none;
+*/	color: black;
 	font-size: 1.2em;
 	font-weight: bolder;
 	margin: 4em 0.2em 0 0.2em;
@@ -32,12 +42,12 @@ h4 {
 	font-weight: normal;
 	margin: 0.2em 0;
 }
-p {
-	color: grey;
-	margin: 0.2em 0;
+ul {
+	list-style: none;
+	padding: 0.2em;
 }
-
-.col-xs-6, .col-sm-3, .col-md-3, .col-lg-3 {
+li {
+	line-height: 1.4;
 }
 .box {
 	margin: 0.2em;
@@ -52,15 +62,32 @@ p {
 	border: solid 0px black;
 	margin-bottom: 2em;
 }
+.project h4 {
+	padding: 0 15%;
+}
+.project p {
+	color: grey;
+	margin: 0.2em 0;
+	padding: 0 15%;
+}
 .project img {
-	width: 100%;
+	width: 69%;
 	border: solid 0px #eae43a;
 	margin: 0.2em;
+	padding: 0 15%;
 }
 .placeholder {
 	height: 300px;
 	width: 100%;
 	border: solid 1px black;
+}
+.bio {
+/*	font-family: 'lucida grande';*/
+	font-size: 14px;
+	line-height: 1;
+}
+.cv {
+	padding: 0 15%;
 }
 .footer {
 	margin-top: 4em;
@@ -68,4 +95,7 @@ p {
 }
 #navigation {
 	margin-bottom: 4em;
+}
+#writing p{
+	color: grey;
 }
