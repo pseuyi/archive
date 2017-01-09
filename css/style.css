@@ -63,18 +63,26 @@ li {
 	margin-bottom: 2em;
 }
 .project h4 {
-	padding: 0 15%;
+	display: inline;
+	padding-left: 15%;
 }
 .project p {
 	color: grey;
 	margin: 0.2em 0;
 	padding: 0 15%;
 }
-.project img {
+.thumbnail {
 	width: 69%;
 	border: solid 0px #eae43a;
 	margin: 0.2em;
 	padding: 0 15%;
+}
+.octicon {
+	display: inline;
+	float: right;
+	width: 14px;
+	margin: 0.2em;
+	padding-right: 15%;
 }
 .placeholder {
 	height: 300px;
