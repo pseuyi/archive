@@ -19,9 +19,9 @@ a:hover {
 /*	box-shadow: */
 }
 h1 {
-	font-size: 1.2em;
-	font-weight: bolder;
-	margin: 0 0.2em;
+	/*font-size: 1.2em;*/
+	font-weight: normal;
+	margin: 0 0.2em 0.4em 0.2em;
 	color: red;
 }
 
@@ -31,9 +31,9 @@ h3 {
 	font-size: 1.2em;
 	font-weight: bolder;
 	margin: 4em 0.2em 0 0.2em;
-	-ms-transform: skew(30deg,2deg); 
-  -webkit-transform: skew(30deg,2deg); 
-  transform: skew(30deg,2deg); 
+	-ms-transform: skew(30deg,2deg);
+  -webkit-transform: skew(30deg,2deg);
+  transform: skew(30deg,2deg);
 }
 
 h4 {
