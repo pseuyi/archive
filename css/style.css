@@ -1,6 +1,6 @@
-@media (max-device-width: 720px) {
+@media (max-width: 720px) {
 	body {
-		padding: 2em !important;
+		padding: 1em !important;
 	}
 }
 
