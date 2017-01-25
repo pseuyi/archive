@@ -3,7 +3,6 @@
 		padding: 2em 1em !important;
 	}
 }
-
 body {
 	font-family: 'arial', sans-serif, monospace;
 	padding: 4em 12em;
@@ -35,11 +34,12 @@ h1 {
 }
 
 h3 {
-/*	display: none;
-*/	color: black;
+/*	display: none;*/
+	display: inline-block;
+	color: black;
 	font-size: 1.2em;
 	font-weight: bolder;
-	margin: 4em 0.2em 0 0.2em;
+	margin: 0 0.2em;
 	-ms-transform: skew(30deg,2deg);
   -webkit-transform: skew(30deg,2deg);
   transform: skew(30deg,2deg);
@@ -50,6 +50,11 @@ h4 {
 	font-size: 1.2em;
 	font-weight: normal;
 	margin: 0.2em 0;
+}
+span {
+	display: inline;
+	font-size: 0.9em;
+	margin-left: 1em;
 }
 ul {
 	list-style: none;
