@@ -1,0 +1,105 @@
+@media (max-width: 720px) {
+  body {
+    padding: 2em 1em !important; } }
+
+@media (min-width: 720px) and (max-width: 1024px) {
+  body {
+    padding: 2em 10em !important; } }
+
+@media (min-width: 1024px) and (max-width: 1400px) {
+  body {
+    padding: 2em 16em !important; } }
+
+body {
+  background: #aaaaaa;
+  padding: 2em 24em;
+  color: black;
+  font-size: 11px; }
+
+h1 {
+  color: black;
+  font-family: "Lora", serif;
+  font-weight: normal;
+  font-size: 2.8em;
+  padding: 10px 0;
+  border-bottom: solid 1px black;
+  -webkit-margin-after: 22px;
+  text-align: center; }
+
+h2 {
+  color: black;
+  font-size: 1.8em;
+  font-weight: normal;
+  -webkit-margin-after: 22px;
+  font-family: "Lora", serif;
+  text-align: center; }
+
+.fixed-nav {
+  position: absolute;
+  left: 40px;
+  top: 20px;
+  width: 128px;
+  height: calc(64*6);
+  border: solid 1px black; }
+  .fixed-nav p {
+    text-align: center;
+    padding: 0.2em 0;
+    margin: 0;
+    border-bottom: 1px solid black; }
+  .fixed-nav img.nav-icon {
+    box-sizing: border-box;
+    padding: 5px;
+    width: 64px; }
+
+.nav {
+  font-size: 1em;
+  height: 1em;
+  padding: 10px 0;
+  text-align: center;
+  border-bottom: solid 1px grey; }
+
+.navigation {
+  -webkit-margin-after: 22px; }
+
+a {
+  text-decoration: none;
+  color: black;
+  font-family: "Open Sans", sans-serif; }
+
+a:hover {
+  text-decoration: none;
+  color: #d6cf08;
+  cursor: pointer; }
+
+.project.box {
+  margin: 2em; }
+
+.project h3 {
+  font-family: "Lora", serif;
+  font-size: 2em;
+  font-weight: normal;
+  display: inline-block;
+  margin: 0.5em 0; }
+
+.project p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
+  margin-top: 0; }
+
+.project p.type {
+  color: grey; }
+
+.thumbnail {
+  width: 100%;
+  border: solid 0px #eae43a; }
+
+.octicon {
+  display: inline-block;
+  margin: 1.5em 0;
+  float: right; }
+
+.octicon img {
+  display: inline-block;
+  float: right;
+  width: 14px;
+  margin: 0.2em; }
