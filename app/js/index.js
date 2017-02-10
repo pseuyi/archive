@@ -7,12 +7,6 @@ import Projects from './components/Projects'
 
 ReactDOM.render(
   (
-  <Router history={browserHistory}>
-    <Route path='/' component={App}>
-      <IndexRoute component={Projects}/>
-      <Route path='about' component={About}/>
-      <Route path='projects' component={Projects}/>
-    </Route>
-  </Router>
+<App />
   ),
   document.getElementById('app'))

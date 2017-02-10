@@ -1,5 +1,5 @@
 {
-  "name": "PROJECT_NAME",
+  "name": "pseuyi.xyz",
   "version": "1.0.0",
   "description": "",
   "main": "app/js/index.js",
@@ -8,17 +8,18 @@
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
     "start:dev": "webpack-dev-server --port 4444 --inline --content-base public --history-api-fallback",
     "start:prod": "webpack && node app/server.js",
-    "build": "webpack -w",
-    "build-css": "node-sass -w app/sass -o public/"
+    "build-css": "node-sass -w app/sass -o public/",
+    "build": "node app/js/build.js",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pseuyi/PROJECT_NAME.git"
+    "url": "git+https://github.com/pseuyi/pseuyi.github.io.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/pseuyi/PROJECT_NAME/issues"
+    "url": "https://github.com/pseuyi/pseuyi.github.io/issues"
   },
   "dependencies": {
     "compression": "^1.6.2",
@@ -36,11 +37,12 @@
     "babel-preset-es2015": "^6.5.0",
     "babel-preset-react": "^6.5.0",
     "css-loader": "^0.26.1",
+    "gh-pages": "^0.12.0",
     "http-server": "^0.8.5",
     "sass-loader": "^5.0.1",
     "style-loader": "^0.13.1",
     "webpack": "^1.14.0",
     "webpack-dev-server": "^1.14.1"
   },
-  "homepage": "https://github.com/pseuyi/PROJECT_NAME#readme"
+  "homepage": "http://pseuyi.github.io/"
 }
