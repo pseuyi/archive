@@ -1,127 +1,29 @@
 import React, { Component } from 'react'
+import NavRow from './NavRow'
 
 export default class extends Component {
   render () {
     return (
-      <div id='navigation'>
-    	  <div className="row">
-    	  	<div className="col-xs-12
-    	              col-sm-6
-    	              col-md-3
-    	              col-lg-3">
-    	    	<div className="nav box">
-    	    	</div>
-    	  	</div>
-    	  	<div className="col-xs-12
-    	              col-sm-6
-    	              col-md-3
-    	              col-lg-3">
-    	    	<div className="nav box">
-    	    	</div>
-    	  	</div>
-    	  	<div className="col-xs-12
-    	              col-sm-6
-    	              col-md-3
-    	              col-lg-3">
-    	    	<div className="nav box">chinatown, nyc</div>
-    	  	</div>
-    	  	<div className="col-xs-12
-    	              col-sm-6
-    	              col-md-3
-    	              col-lg-3">
-    	    	<div className="nav box">
-    	    		<a href="mailto:pseuyi@gmail.com?Subject=hi" target="_top">pseuyi@gmail.com</a>
-    	    	</div>
-    	  	</div>
-    		</div>
-
-    		<div className="row">
-    	  	<div className="col-xs-12
-    	              col-sm-6
-    	              col-md-3
-    	              col-lg-3">
-    	    	<div className="nav box"></div>
-    	  	</div>
-    	  	<div className="col-xs-12
-    	              col-sm-6
-    	              col-md-3
-    	              col-lg-3">
-    	    	<div className="nav box"></div>
-    	  	</div>
-    	  	<div className="col-xs-12
-    	              col-sm-6
-    	              col-md-3
-    	              col-lg-3">
-    	    	<div className="nav box"></div>
-    	  	</div>
-    	  	<div className="col-xs-12
-    	              col-sm-6
-    	              col-md-3
-    	              col-lg-3">
-    	    	<div className="nav box"></div>
-    	  	</div>
-    		</div>
-
-    	  <div className="row">
-    	  	<div className="col-xs-12
-    	              col-sm-6
-    	              col-md-3
-    	              col-lg-3">
-    	    	<div className="nav box"></div>
-    	  	</div>
-    	  	<div className="col-xs-12
-    	              col-sm-6
-    	              col-md-3
-    	              col-lg-3">
-    	    	<div className="nav box"></div>
-    	  	</div>
-    	  	<div className="col-xs-12
-    	              col-sm-6
-    	              col-md-3
-    	              col-lg-3">
-    	    	<div className="nav box"></div>
-    	  	</div>
-    	  	<div className="col-xs-12
-    	              col-sm-6
-    	              col-md-3
-    	              col-lg-3">
-    	    	<div className="nav box"></div>
-    	  	</div>
-    		</div>
-
-    	  <div className="row">
-    	  	<div className="col-xs-12
-    	              col-sm-6
-    	              col-md-3
-    	              col-lg-3">
-    	    	<div className="nav box">
-    	    		<a href="https://github.com/pseuyi">github</a>
-    	    	</div>
-    	  	</div>
-    	  	<div className="col-xs-12
-    	              col-sm-6
-    	              col-md-3
-    	              col-lg-3">
-    	    	<div className="nav box">
-    	    		<a href="https://www.linkedin.com/in/pseuyi">linkedin</a>
-    	    	</div>
-    	  	</div>
-    	  	<div className="col-xs-12
-    	              col-sm-6
-    	              col-md-3
-    	              col-lg-3">
-    	    	<div className="nav box">
-    	    		<a href="https://www.are.na/freda-nada">are.na</a>
-    	    	</div>
-    	  	</div>
-    	  	<div className="col-xs-12
-    	              col-sm-6
-    	              col-md-3
-    	              col-lg-3">
-    	    	<div className="nav box">@pseuyi</div>
-    	  	</div>
-    		</div>
+      <div className='navigation'>
+        <NavRow links={[
+            {text:'about'},
+            {text:'projects'},
+            {text: 'sketches'},
+            {text: 'contact'}]} />
     	</div>
     )
   }
 }
+
+// <NavRow links={[
+//     {url: 'https://github.com/pseuyi', text: 'github'},
+//     {url: 'https://www.linkedin.com/in/pseuyi', text: 'linkedin'},
+//     {url: 'https://www.are.na/freda-nada', text: 'are.na'},
+//     {url: 'mailto:pseuyi@gmail.com?Subject=hi', text: 'pseuyi@gmail.com'},
+//   ]} />
+//
+// {[
+//     {text:'about'},
+//     {text:'work'},
+//     {text: 'sketch'},
+//     {text: 'contact'}]}
