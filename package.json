@@ -22,5 +22,5 @@
     "predeploy": "npm run build",
     "deploy": "master -d build"
   },
-  "homepage": "http://pseuyi.xyz/"
+  "homepage": "http://pseuyi.github.io/"
 }
