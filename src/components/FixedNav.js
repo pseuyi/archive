@@ -18,7 +18,6 @@ export default class extends Component {
     this.setState({drag:false})
   }
   render () {
-    console.log('current drag state', this.state.drag)
     return (
       <Draggable>
         <div className='fixed-nav' onClick={this.startDrag}>
@@ -27,13 +26,13 @@ export default class extends Component {
             <p>pick me up</p>
             : <p>navigator</p>
           }
-          <Link to='projects'>
+          <Link to='/'>
             <img className='nav-icon' src={home} alt='home icon' />
           </Link>
           <Link to='about'>
             <img className='nav-icon' src={happy} alt='happy face icon' />
           </Link>
-          <Link to='map'>
+          <Link to='projects'>
             <img className='nav-icon' src={file} alt='files icon' />
           </Link>
           <a href='mailto:pseuyi@gmail.com?Subject=hi'>

@@ -1,6 +1,8 @@
 @media (max-width: 720px) {
   body {
-    padding: 2em 1em !important; } }
+    padding: 2em 1em !important; }
+  .fixed-nav {
+    display: none; } }
 
 @media (min-width: 720px) and (max-width: 1024px) {
   body {
@@ -118,8 +120,16 @@ a:hover {
   padding-left: 1em;
   color: black; }
 
-.about .links p {
+.about .links a {
+  font-family: "Lora", serif;
   margin-right: 0.5em;
   display: inline-block;
-  font-size: 20px;
+  font-size: 18px;
   border-bottom: solid 1px black; }
+
+.cloud {
+  display: inline-block;
+  font-size: 40px;
+  background-color: grey;
+  padding: 1em;
+  box-shadow: 0 0 40px 30px #aaaaaa inset; }

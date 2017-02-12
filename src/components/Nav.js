@@ -14,16 +14,3 @@ export default class extends Component {
     )
   }
 }
-
-// <NavRow links={[
-//     {url: 'https://github.com/pseuyi', text: 'github'},
-//     {url: 'https://www.linkedin.com/in/pseuyi', text: 'linkedin'},
-//     {url: 'https://www.are.na/freda-nada', text: 'are.na'},
-//     {url: 'mailto:pseuyi@gmail.com?Subject=hi', text: 'pseuyi@gmail.com'},
-//   ]} />
-//
-// {[
-//     {text:'about'},
-//     {text:'work'},
-//     {text: 'sketch'},
-//     {text: 'contact'}]}

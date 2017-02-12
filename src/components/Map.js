@@ -2,16 +2,13 @@ import React, { Component } from 'react'
 import FixedNav from './FixedNav'
 
 export default class extends Component {
-  constructor () {
-    super()
-  }
   render () {
     return (
       <div className='map'>
         <FixedNav />
-        <p className='cloud'>sketches</p>
-        <p className='cloud'>projects</p>
-        <p className='cloud'>about</p>
+        <p className='cloud link-1'>sketches</p>
+        <p className='cloud link-2'>projects</p>
+        <p className='cloud link-3'>about</p>
       </div>
     )
   }

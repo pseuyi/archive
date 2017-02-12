@@ -14,8 +14,8 @@
     "react-router": "^2.0.0"
   },
   "scripts": {
-    "start": "react-scripts start & npm run watch-css",
-    "build": "react-scripts build && npm run build-css",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "test": "react-scripts test --env=jsdocaom",
     "eject": "react-scripts eject",
     "build-css": "node-sass -w src/css/ -o src/css",

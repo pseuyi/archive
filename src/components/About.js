@@ -4,6 +4,7 @@ export default class extends Component {
   render () {
     return (
       <div className='about'>
+        <h1>freda suyi nada/ding</h1>
         <h2>about</h2>
         <ul>
           <li className='desc'>
@@ -25,9 +26,10 @@ export default class extends Component {
           </li>
         </ul>
         <div className='links'>
-          <p>github</p>
-          <p>linkedin</p>
-          <p>are.na</p>
+          <a href='https://github.com/pseuyi'>github</a>
+          <a href='https://www.linkedin.com/in/pseuyi'>linkedin</a>
+          <a href='https://www.are.na/freda-nada'>are.na</a>
+          <a href='mailto:pseuyi@gmail.com?Subject=hi'>email</a>
         </div>
       </div>
     )
