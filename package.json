@@ -18,5 +18,6 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "build-css": "node-sass -w src/css/ -o src/css"
-  }
+  },
+  "homepage": "http://pseuyi.github.io/"
 }
