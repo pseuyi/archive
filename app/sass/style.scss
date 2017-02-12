@@ -3,11 +3,12 @@ $sub-font: 'Open Sans', sans-serif;
 $dec-font: 'Inconsolata', sans-serf;
 
 $accent: red;
-$hov: #d6cf08;
+$hov: #89893d;
 $turq: #3397bf;
 $text: black;
 $mute: grey;
 $bg: #aaaaaa;
+// $bg: url('images/felt.png');
 
 $align: center;
 
@@ -23,15 +24,15 @@ $align: center;
 }
 @media (min-width: 1024px) and (max-width: 1400px) {
 	body {
-		padding: 2em 16em !important;
+		padding: 2em 12em !important;
 	}
 }
 
 body {
   background: $bg;
-  padding: 2em 24em;
+  padding: 2em 20em;
   color: $text;
-  font-size: 11px;
+  font-size: 12px;
 }
 
 h1 {
@@ -39,30 +40,34 @@ h1 {
   font-family: $font;
   font-weight: normal;
   font-size: 2.8em;
-  padding: 10px 0;
+  padding: 0.3em 0;
   border-bottom: solid 1px $text;
   -webkit-margin-after: 22px;
   text-align: $align;
+	// display: inline-block;
 }
 
 h2 {
 	color: $text;
 	font-size: 1.8em;
 	font-weight: normal;
+	padding: 0.4em 0;
   -webkit-margin-after: 22px;
   font-family: $font;
+	// border-bottom: solid 1px $accent;
   text-align: $align;
+	// display: inline-block;
 }
 
 .fixed-nav {
   position: absolute;
   left: 40px;
-  top: 20px;
+  top: 60px;
   width: 128px;
   height: calc(64*6);
   border: solid 1px $text;
   p {
-    text-align: $align;
+    text-align: center;
     padding: 0.2em 0;
     margin: 0;
     border-bottom: 1px solid $text;
@@ -100,12 +105,12 @@ a:hover {
 }
 
 .project.box {
-  margin: 2em;
+  margin: 2em 1em;
 }
 
 .project h3 {
   font-family: $font;
-  font-size: 2em;
+  font-size: 1.6em;
   font-weight: normal;
   display: inline-block;
   margin: 0.5em 0;
@@ -127,13 +132,33 @@ a:hover {
 
 .octicon {
   display: inline-block;
-  margin: 1.5em 0;
+	margin: 1em 0 0.5em 0;
   float: right;
 }
 
-.octicon img {
-	display: inline-block;
-	float: right;
-	width: 14px;
-	margin: 0.2em;
+.about {
+	text-align: left;
+	ul {
+		padding: 0;
+		list-style: none;
+		font-size: 18px;
+		line-height: 0.6em;
+		li.desc p {
+			color: $text;
+			padding: 0;
+		}
+		li {
+			color: $accent;
+			p {
+				padding-left: 1em;
+				color: $text;
+			}
+		}
+	}
+	.links p {
+		margin-right: 0.5em;
+		display: inline-block;
+		font-size: 20px;
+		border-bottom: solid 1px $text;
+	}
 }

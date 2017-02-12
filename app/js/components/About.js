@@ -3,11 +3,32 @@ import React, { Component } from 'react'
 export default class extends Component {
   render () {
     return (
-      <div>
-        <h1>about</h1>
-          <p>a) freda nada (b. freda suyi ding) is a chinatown, nyc based programmer interested in topics surrounding web3, digital labor, new media, and frameworks for social progress.</p>
-  				<p>b) currently a teaching fellow for an immersive online code school modeled after stanford's vr lab. using javascript, express, node, sql, angular, react, web audio, a-frame, three.js.</p>
-  				<p>c) formerly a management consultant in silicon valley, freelance writer @ NEW INC, intern @ PS1, data analyzer @ AOL, student @ nyu.</p>        
+      <div className='about'>
+        <h2>about</h2>
+        <ul>
+          <li className='desc'>
+            <p> freda nada (b. freda suyi ding) is a web developer based in chinatown, nyc</p>
+            <p>
+            interested in topics related to new media, digital labor, and frameworks for social progress
+            </p>
+          </li>
+          <li>
+            currently:
+            <p> ~ teaching fellow for an immersive online code school</p>
+          </li>
+          <li>
+            previously:
+            <p> ~ management consultant in silicon valley</p>
+            <p> ~ freelance @ NEW INC</p>
+            <p> ~ live programming intern @ PS1</p>
+            <p> ~ data analyst @ AOL</p>
+          </li>
+        </ul>
+        <div className='links'>
+          <p>github</p>
+          <p>linkedin</p>
+          <p>are.na</p>
+        </div>
       </div>
     )
   }

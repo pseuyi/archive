@@ -9,10 +9,8 @@ export default class extends Component {
   }
   render () {
     return (
-      <div>
-          <h2>projects</h2>
-          <Project projects={this.state.projects} />
-      </div>
+      <Project projects={this.state.projects} />
     )
   }
 }
+// <h2>projects</h2>

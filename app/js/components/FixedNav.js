@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import Draggable from 'react-draggable';
+import Draggable from 'react-draggable'
+import { Link } from 'react-router'
 
 export default class extends Component {
   constructor () {
@@ -22,10 +23,18 @@ export default class extends Component {
             <p>pick me up</p>
             : <p>navigator</p>
           }
-          <img className='nav-icon' src='icons/home.png' />
-          <img className='nav-icon' src='icons/file.png' />
-          <img className='nav-icon' src='icons/happy.png' />
-          <img className='nav-icon' src='icons/mail.png' />
+          <Link to='links'>
+            <img className='nav-icon' src='icons/home.png' />
+          </Link>
+          <Link to='/about'>
+            <img className='nav-icon' src='icons/happy.png' />
+          </Link>
+          <Link to='/projects'>
+            <img className='nav-icon' src='icons/file.png' />
+          </Link>
+          <a href='mailto:pseuyi@gmail.com?Subject=hi'>
+            <img className='nav-icon' src='icons/mail.png' />
+          </a>
         </div>
       </Draggable>
     )

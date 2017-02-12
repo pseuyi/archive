@@ -8,20 +8,20 @@
 
 @media (min-width: 1024px) and (max-width: 1400px) {
   body {
-    padding: 2em 16em !important; } }
+    padding: 2em 12em !important; } }
 
 body {
   background: #aaaaaa;
-  padding: 2em 24em;
+  padding: 2em 20em;
   color: black;
-  font-size: 11px; }
+  font-size: 12px; }
 
 h1 {
   color: black;
   font-family: "Lora", serif;
   font-weight: normal;
   font-size: 2.8em;
-  padding: 10px 0;
+  padding: 0.3em 0;
   border-bottom: solid 1px black;
   -webkit-margin-after: 22px;
   text-align: center; }
@@ -30,6 +30,7 @@ h2 {
   color: black;
   font-size: 1.8em;
   font-weight: normal;
+  padding: 0.4em 0;
   -webkit-margin-after: 22px;
   font-family: "Lora", serif;
   text-align: center; }
@@ -37,7 +38,7 @@ h2 {
 .fixed-nav {
   position: absolute;
   left: 40px;
-  top: 20px;
+  top: 60px;
   width: 128px;
   height: calc(64*6);
   border: solid 1px black; }
@@ -68,15 +69,15 @@ a {
 
 a:hover {
   text-decoration: none;
-  color: #d6cf08;
+  color: #89893d;
   cursor: pointer; }
 
 .project.box {
-  margin: 2em; }
+  margin: 2em 1em; }
 
 .project h3 {
   font-family: "Lora", serif;
-  font-size: 2em;
+  font-size: 1.6em;
   font-weight: normal;
   display: inline-block;
   margin: 0.5em 0; }
@@ -95,11 +96,26 @@ a:hover {
 
 .octicon {
   display: inline-block;
-  margin: 1.5em 0;
+  margin: 1em 0 0.5em 0;
   float: right; }
 
-.octicon img {
-  display: inline-block;
-  float: right;
-  width: 14px;
-  margin: 0.2em; }
+.about {
+  text-align: left; }
+  .about ul {
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 0.6em; }
+    .about ul li.desc p {
+      color: black;
+      padding: 0; }
+    .about ul li {
+      color: red; }
+      .about ul li p {
+        padding-left: 1em;
+        color: black; }
+  .about .links p {
+    margin-right: 0.5em;
+    display: inline-block;
+    font-size: 20px;
+    border-bottom: solid 1px black; }
