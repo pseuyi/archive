@@ -20,7 +20,7 @@
     "eject": "react-scripts eject",
     "build-css": "node-sass -w src/css/ -o src/css",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "master -d build"
   },
   "homepage": "http://pseuyi.xyz/"
 }
