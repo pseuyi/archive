@@ -4,7 +4,7 @@ import { Router, Route, IndexRoute, browserHistory } from 'react-router'
 import App from './components/App'
 import About from './components/About'
 import Projects from './components/Projects'
-import Links from './components/Links'
+import Map from './components/Map'
 import './css/index.css';
 
 ReactDOM.render(
@@ -14,8 +14,8 @@ ReactDOM.render(
       <IndexRoute component={Projects}/>
       <Route path='about' component={About}/>
       <Route path='projects' component={Projects}/>
-      <Route path='links' component={Links}/>
     </Route>
+    <Route path='/map' component={Map}/>
   </Router>
   ),
   document.getElementById('app'))
