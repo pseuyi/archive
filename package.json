@@ -1,45 +1,22 @@
 {
   "name": "pseuyi.xyz",
-  "version": "1.0.0",
-  "description": "",
-  "main": "app/js/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
-    "start:dev": "webpack-dev-server --port 4444 --inline --content-base public --history-api-fallback",
-    "start:prod": "webpack && node app/server.js",
-    "build-css": "node-sass -w app/sass -o public/"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/pseuyi/pseuyi.github.io.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/pseuyi/pseuyi.github.io/issues"
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "node-sass": "^4.5.0",
+    "react-scripts": "0.9.0"
   },
   "dependencies": {
-    "compression": "^1.6.2",
-    "express": "^4.14.1",
-    "if-env": "^1.0.0",
-    "node-sass": "^4.5.0",
-    "react": "^0.14.7",
-    "react-dom": "^0.14.7",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
     "react-draggable": "^2.2.3",
     "react-router": "^2.0.0"
   },
-  "devDependencies": {
-    "babel-core": "^6.5.1",
-    "babel-loader": "^6.2.2",
-    "babel-preset-es2015": "^6.5.0",
-    "babel-preset-react": "^6.5.0",
-    "css-loader": "^0.26.1",
-    "http-server": "^0.8.5",
-    "sass-loader": "^5.0.1",
-    "style-loader": "^0.13.1",
-    "webpack": "^1.14.0",
-    "webpack-dev-server": "^1.14.1"
-  },
-  "homepage": "http://pseuyi.github.io/"
+  "scripts": {
+    "start": "react-scripts start & npm run watch-css",
+    "build": "react-scripts build && npm run build-css",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "build-css": "node-sass -w src/css/ -o src/css"
+  }
 }

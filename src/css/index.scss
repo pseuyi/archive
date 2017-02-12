@@ -79,7 +79,6 @@ h2 {
   }
 }
 
-
 .nav {
 	font-size: 1em;
 	height: 1em;
@@ -112,7 +111,7 @@ a:hover {
   font-family: $font;
   font-size: 1.6em;
   font-weight: normal;
-  display: inline-block;
+  // display: inline-block;
   margin: 0.5em 0;
 }
 
@@ -131,8 +130,8 @@ a:hover {
 }
 
 .octicon {
-  display: inline-block;
-	margin: 1em 0 0.5em 0;
+  // display: inline-block;
+	// margin: 1em 0 0.5em 0;
   float: right;
 }
 

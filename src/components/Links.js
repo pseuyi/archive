@@ -8,7 +8,6 @@ export default class extends Component {
     return (
       <div>
           freda is a web developer
-
       </div>
     )
   }
