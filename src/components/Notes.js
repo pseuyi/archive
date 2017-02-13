@@ -7,8 +7,14 @@ export default class extends Component {
     console.log(projects)
     return (
       <div>
-        <h1>notes</h1>
-        <h2>concepts/sketches/in progress</h2>
+        <h1>
+          notes <br />
+        </h1>
+        <h2>
+          assorted app sketches/<br />
+          programming concepts/<br />
+          projects in progress
+        </h2>
         <Project projects={projects}/>
       </div>
     )

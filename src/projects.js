@@ -51,17 +51,10 @@ export default [
     desc: 'draw paths between various locations in nyc. location data comes from queries to the foursquare api'
   },
   {
-    url: '/',
-    name: 'scalene',
-    giturl: 'https://github.com/pseuyi/scalene',
-    type: 'experimental web app',
-    desc: 'sound/space'
-  },
-  {
     url: 'https://cdn.rawgit.com/pseuyi/robitussyn/66188512/index.html',
     name: 'robitussyn',
     giturl: 'https://github.com/pseuyi/robitussyn',
     type: 'vr experiment',
-    desc: 'playing with mapping texture'
+    desc: 'my first app using aframe. this demo juxtaposes a tense scene from \'mulholland drive\' with a 3d rendering of the blue box prop. using aframe click listeners to register interactivity'
   },
 ]

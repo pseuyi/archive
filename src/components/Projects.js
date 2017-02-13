@@ -17,7 +17,7 @@ export default class extends Component {
             <a href='https://github.com/pseuyi'>github</a>
             <a href='https://www.linkedin.com/in/pseuyi'>linkedin</a>
             <a href='https://www.are.na/freda-nada'>are.na</a>
-            <a href='mailto:pseuyi@gmail.com?Subject=hi'>email</a>
+            <a href='https://twitter.com/pseuyi'>@pseuyi</a>
           </div>
           select projects they have worked on recently:
         </h1>

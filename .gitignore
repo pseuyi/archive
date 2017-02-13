@@ -18,6 +18,8 @@ yarn-error.log*
 /grave
 /static
 /images
+/assets
+/app
 
 #sass
 .sass-cache/
