@@ -21,3 +21,5 @@ yarn-error.log*
 *.css.map
 
 /grave
+/public
+/src
