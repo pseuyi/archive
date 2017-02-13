@@ -5,7 +5,7 @@ export default class extends Component {
   render () {
     return (
       <div className='map'>
-        <h2 id='name'>freda nada suyi/ding
+        <h2 id='name'>freda suyi nada/ding
           <div className='links'>
             <a href='https://github.com/pseuyi'>github</a>
             <a href='https://www.linkedin.com/in/pseuyi'>linkedin</a>
