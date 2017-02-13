@@ -7,8 +7,9 @@ $hov: #89893d;
 $turq: #3397bf;
 $text: black;
 $mute: grey;
-$bg: #aaaaaa;
-// $bg: url('../images/felt.png');
+// $bg: #aaaaaa;
+$bg: #c4c4c4;
+// $bg: url('../../public/images/concrete_seamless.png');
 
 $align: center;
 
@@ -19,21 +20,24 @@ $align: center;
 	.fixed-nav {
 		display: none;
 	}
+	.map h2 {
+		display: block;
+	}
 }
 @media (min-width: 720px) and (max-width: 1024px) {
 	body {
-		padding: 2em 10em !important;
+		padding: 2em 12em !important;
 	}
 }
 @media (min-width: 1024px) and (max-width: 1400px) {
 	body {
-		padding: 2em 12em !important;
+		padding: 2em 14em !important;
 	}
 }
 
 body {
   background: $bg;
-  padding: 2em 20em;
+  padding: 2em 18em;
   color: $text;
   font-size: 12px;
 }
@@ -47,7 +51,6 @@ h1 {
   border-bottom: solid 1px $text;
   -webkit-margin-after: 22px;
   text-align: $align;
-	// display: inline-block;
 }
 
 h2 {
@@ -56,16 +59,31 @@ h2 {
 	font-weight: normal;
 	padding: 0.4em 0;
   -webkit-margin-after: 22px;
+	margin: 0;
   font-family: $font;
-	// border-bottom: solid 1px $accent;
   text-align: $align;
-	// display: inline-block;
+}
+
+h4 {
+	color: $text;
+	font-size: 1em;
+	font-weight: normal;
+	padding: 0.4em 0;
+	margin: 0;
+	font-family: $font;
+	border-bottom: solid 1px $text;
+	text-align: $align;
+	display: inline-block;
+}
+
+p {
+	font-family: $sub-font;
 }
 
 .fixed-nav {
   position: absolute;
-  left: 40px;
-  top: 60px;
+  right: 20px;
+  bottom: 40px;
   width: 128px;
   height: calc(64*6);
   border: solid 1px $text;
@@ -144,7 +162,6 @@ a:hover {
 		padding: 0;
 		list-style: none;
 		font-size: 18px;
-		line-height: 0.6em;
 		li.desc p {
 			color: $text;
 			padding: 0;
@@ -152,24 +169,61 @@ a:hover {
 		li {
 			color: $accent;
 			p {
-				padding-left: 1em;
 				color: $text;
 			}
 		}
 	}
-	.links a {
-		font-family: $font;
-		margin-right: 0.5em;
-		display: inline-block;
-		font-size: 18px;
-		border-bottom: solid 1px $text;
-	}
 }
 
-.cloud {
+.links a {
+	font-family: $font;
+	padding: 0.3em 0;
+	margin-right: 1em;
 	display: inline-block;
-	font-size: 40px;
-	background-color: $mute;
-	padding: 1em;
-	box-shadow: 0 0 40px 30px $bg inset;
+	font-size: 22px;
+	border-bottom: solid 1px $text;
+}
+.links a:hover {
+	color: $text;
+	border-bottom: solid 1px $accent;
+}
+
+.map {
+	position: relative;
+	width: 100%;
+	height: 800px;
+	#name {
+		position: absolute;
+		font-size: 44px;
+		top: 26%;
+		left: 20%;
+		background-color: #3397bf;
+		padding: 1em;
+		box-shadow: 0 0 70px 50px $bg inset;
+		display: inline-block;
+		z-index: 100;
+	}
+	.cloud {
+		font-family: $font;
+		font-size: 40px;
+		background-color: $mute;
+		padding: 0.6em;
+		box-shadow: 0 0 50px 30px $bg inset;
+		display: inline-block;
+	}
+	.cloud.link-1 {
+		position: absolute;
+		top: 15%;
+		right: 0;
+	}
+	.cloud.link-2 {
+		position: absolute;
+		left: 20%;
+		bottom: 24%;
+	}
+	.cloud.link-3 {
+		position: absolute;
+		left: 0;
+		top: 5%;
+	}
 }
