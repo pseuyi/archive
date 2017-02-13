@@ -16,23 +16,33 @@ $align: left;
 
 @media (max-width: 720px) {
 	body {
-		padding: 2em 1em !important;
+		padding: 0.4em !important;
 	}
 	.fixed-nav {
 		display: none;
 	}
-	.map h2 {
-		display: block;
+	// .map h2 {
+	// 	display: block;
+	// }
+	h1 {
+		font-size: 2em !important;
+	}
+	.links a {
+		margin: 0 !important;
+	}
+	.project.box {
+		border: none !important;
+		padding: 0.4em !important;
 	}
 }
 @media (min-width: 720px) and (max-width: 1024px) {
 	body {
-		padding: 2em 12em !important;
+		padding: 2em 1em !important;
 	}
 }
 @media (min-width: 1024px) and (max-width: 1400px) {
 	body {
-		padding: 2em 14em !important;
+		padding: 2em !important;
 	}
 }
 
