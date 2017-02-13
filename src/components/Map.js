@@ -13,8 +13,8 @@ export default class extends Component {
             <a href='mailto:pseuyi@gmail.com?Subject=hi'>email</a>
           </div>
         </h2>
-        <h2><Link to='notes' className='cloud link-1'>sketches</Link></h2>
-        <h2><Link to='/' className='cloud link-2'>projects</Link></h2>
+        <h2><Link to='notes' className='cloud link-1'>notes</Link></h2>
+        <h2><Link to='/' className='cloud link-2'>portfolio</Link></h2>
         <h2><Link to='about' className='cloud link-3'>about</Link></h2>
       </div>
     )

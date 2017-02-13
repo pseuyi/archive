@@ -15,8 +15,8 @@
     padding: 2em 14em !important; } }
 
 body {
-  background: #c4c4c4;
-  padding: 2em 18em;
+  background: #aaaaaa;
+  padding: 2em;
   color: black;
   font-size: 12px; }
 
@@ -24,11 +24,10 @@ h1 {
   color: black;
   font-family: "Lora", serif;
   font-weight: normal;
-  font-size: 2.8em;
-  padding: 0.3em 0;
-  border-bottom: solid 1px black;
-  -webkit-margin-after: 22px;
-  text-align: center; }
+  font-size: 4em;
+  padding: 0.1em 0;
+  margin: 0;
+  text-align: left; }
 
 h2 {
   color: black;
@@ -38,7 +37,7 @@ h2 {
   -webkit-margin-after: 22px;
   margin: 0;
   font-family: "Lora", serif;
-  text-align: center; }
+  text-align: left; }
 
 h4 {
   color: black;
@@ -48,16 +47,17 @@ h4 {
   margin: 0;
   font-family: "Lora", serif;
   border-bottom: solid 1px black;
-  text-align: center;
+  text-align: left;
   display: inline-block; }
 
 p {
   font-family: "Open Sans", sans-serif; }
 
 .fixed-nav {
+  background: #aaaaaa;
   position: absolute;
-  right: 20px;
-  bottom: 40px;
+  top: 40px;
+  right: 40px;
   width: 128px;
   height: calc(64*6);
   border: solid 1px black; }
@@ -66,7 +66,7 @@ p {
   text-align: center;
   padding: 0.2em 0;
   margin: 0;
-  border-bottom: 1px solid black; }
+  border-bottom: 1px solid grey; }
 
 .fixed-nav img.nav-icon {
   box-sizing: border-box;
@@ -77,7 +77,7 @@ p {
   font-size: 1em;
   height: 1em;
   padding: 10px 0;
-  text-align: center;
+  text-align: left;
   border-bottom: solid 1px grey; }
 
 .navigation {
@@ -90,11 +90,14 @@ a {
 
 a:hover {
   text-decoration: none;
-  color: #89893d;
+  color: #77770a;
   cursor: pointer; }
 
 .project.box {
-  margin: 2em 1em; }
+  margin: 2em 1em 2em 0;
+  padding: 4em;
+  border: solid 1px grey;
+  background: #aaaaaa; }
 
 .project h3 {
   font-family: "Lora", serif;
@@ -111,7 +114,8 @@ a:hover {
   color: grey; }
 
 .thumbnail {
-  width: 100%;
+  padding: 0 12.5%;
+  width: 75%;
   border: solid 0px #eae43a; }
 
 .octicon {
@@ -137,11 +141,11 @@ a:hover {
 
 .links a {
   font-family: "Lora", serif;
-  padding: 0.3em 0;
+  padding: 0.3em;
   margin-right: 1em;
   display: inline-block;
   font-size: 22px;
-  border-bottom: solid 1px black; }
+  border: solid 1px grey; }
 
 .links a:hover {
   color: black;
@@ -159,7 +163,7 @@ a:hover {
   left: 20%;
   background-color: #3397bf;
   padding: 1em;
-  box-shadow: 0 0 70px 50px #c4c4c4 inset;
+  box-shadow: 0 0 70px 50px #aaaaaa inset;
   display: inline-block;
   z-index: 100; }
 
@@ -168,12 +172,12 @@ a:hover {
   font-size: 40px;
   background-color: grey;
   padding: 0.6em;
-  box-shadow: 0 0 50px 30px #c4c4c4 inset;
+  box-shadow: 0 0 50px 30px #aaaaaa inset;
   display: inline-block; }
 
 .map .cloud.link-1 {
   position: absolute;
-  top: 15%;
+  top: 45%;
   right: 0; }
 
 .map .cloud.link-2 {

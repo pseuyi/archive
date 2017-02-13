@@ -10,8 +10,17 @@ export default class extends Component {
   render () {
     return (
       <div>
-        <h1>freda suyi nada/ding</h1>
-        <h2>projects</h2>
+        <h1>{`http://`}pseuyi.xyz  <br />
+          freda suyi nada/ding <br />
+        is a chinatown, nyc based web developer <br />
+          <div className='links'>
+            <a href='https://github.com/pseuyi'>github</a>
+            <a href='https://www.linkedin.com/in/pseuyi'>linkedin</a>
+            <a href='https://www.are.na/freda-nada'>are.na</a>
+            <a href='mailto:pseuyi@gmail.com?Subject=hi'>email</a>
+          </div>
+          select projects they have worked on recently:
+        </h1>
         <Project projects={this.state.projects} />
       </div>
     )

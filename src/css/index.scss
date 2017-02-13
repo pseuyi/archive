@@ -4,14 +4,15 @@ $dec-font: 'Inconsolata', sans-serf;
 
 $accent: red;
 $hov: #89893d;
-$turq: #3397bf;
+$turq: #217596;
+$och: #77770a;
 $text: black;
 $mute: grey;
-// $bg: #aaaaaa;
-$bg: #c4c4c4;
-// $bg: url('../../public/images/concrete_seamless.png');
+$bg: #aaaaaa;
+// $bg: white;
+// $bg: url('../../public/images/felt.png');
 
-$align: center;
+$align: left;
 
 @media (max-width: 720px) {
 	body {
@@ -37,7 +38,7 @@ $align: center;
 
 body {
   background: $bg;
-  padding: 2em 18em;
+  padding: 2em;
   color: $text;
   font-size: 12px;
 }
@@ -46,10 +47,11 @@ h1 {
   color: $text;
   font-family: $font;
   font-weight: normal;
-  font-size: 2.8em;
-  padding: 0.3em 0;
-  border-bottom: solid 1px $text;
-  -webkit-margin-after: 22px;
+  font-size: 4em;
+  padding: 0.1em 0;
+	margin: 0;
+  // border-bottom: solid 1px $text;
+  // -webkit-margin-after: 22px;
   text-align: $align;
 }
 
@@ -81,9 +83,10 @@ p {
 }
 
 .fixed-nav {
+	background: $bg;
   position: absolute;
-  right: 20px;
-  bottom: 40px;
+  top: 40px;
+  right: 40px;
   width: 128px;
   height: calc(64*6);
   border: solid 1px $text;
@@ -91,7 +94,7 @@ p {
     text-align: center;
     padding: 0.2em 0;
     margin: 0;
-    border-bottom: 1px solid $text;
+    border-bottom: 1px solid $mute;
   }
   img.nav-icon {
     box-sizing: border-box;
@@ -120,19 +123,22 @@ a {
 
 a:hover {
 	text-decoration: none;
-	color: $hov;
+	color: $och;
+	// border-bottom: solid 4px $accent;
   cursor: pointer;
 }
 
 .project.box {
-  margin: 2em 1em;
+  margin: 2em 1em 2em 0;
+	padding: 4em;
+	border: solid 1px $mute;
+	background: $bg;
 }
 
 .project h3 {
   font-family: $font;
   font-size: 1.6em;
   font-weight: normal;
-  // display: inline-block;
   margin: 0.5em 0;
 }
 
@@ -146,7 +152,8 @@ a:hover {
 }
 
 .thumbnail {
-	width: 100%;
+	padding: 0 12.5%;
+	width: 75%;
 	border: solid 0px #eae43a;
 }
 
@@ -177,11 +184,12 @@ a:hover {
 
 .links a {
 	font-family: $font;
-	padding: 0.3em 0;
+	padding: 0.3em;
 	margin-right: 1em;
 	display: inline-block;
 	font-size: 22px;
-	border-bottom: solid 1px $text;
+	// border-bottom: solid 1px $text;
+	border: solid 1px $mute;
 }
 .links a:hover {
 	color: $text;
@@ -213,7 +221,7 @@ a:hover {
 	}
 	.cloud.link-1 {
 		position: absolute;
-		top: 15%;
+		top: 45%;
 		right: 0;
 	}
 	.cloud.link-2 {

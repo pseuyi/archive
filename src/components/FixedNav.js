@@ -26,13 +26,13 @@ export default class extends Component {
             <p>move me</p>
             : <p>menu</p>
           }
-          <Link to='map'>
+          <Link to='/'>
             <img className='nav-icon' src={home} alt='home icon' />
           </Link>
           <Link to='about'>
             <img className='nav-icon' src={happy} alt='happy face icon' />
           </Link>
-          <Link to='/'>
+          <Link to='notes'>
             <img className='nav-icon' src={file} alt='files icon' />
           </Link>
           <a href='mailto:pseuyi@gmail.com?Subject=hi'>
