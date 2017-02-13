@@ -14,8 +14,8 @@ export default class extends Component {
           </div>
         </h2>
         <h2><Link to='notes' className='cloud link-1'>sketches</Link></h2>
-        <h2 className='cloud link-2'>projects</h2>
-        <h2 className='cloud link-3'>about</h2>
+        <h2><Link to='/' className='cloud link-2'>projects</Link></h2>
+        <h2><Link to='about' className='cloud link-3'>about</Link></h2>
       </div>
     )
   }
