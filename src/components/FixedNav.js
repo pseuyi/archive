@@ -10,33 +10,29 @@ export default class extends Component {
   constructor () {
     super()
     this.state = {
-      drag: true
+      tooltip: 'move me'
     }
-    this.startDrag = this.startDrag.bind(this)
+    this.toggleTooltip = this.toggleTooltip.bind(this)
   }
-  startDrag () {
-    this.setState({drag:false})
+  toggleTooltip (text) {
+    this.setState({tooltip: text})
   }
   render () {
     return (
       <Draggable>
-        <div className='fixed-nav' onClick={this.startDrag}>
-          {
-            this.state.drag?
-            <p>move me</p>
-            : <p>menu</p>
-          }
+        <div className='fixed-nav'>
+          <p>{this.state.tooltip}</p>
           <Link to='/'>
-            <img className='nav-icon' src={home} alt='home icon' />
+            <img className='nav-icon' src={home} alt='home icon' onMouseEnter={()=>this.toggleTooltip('home')} onMouseLeave={()=>this.toggleTooltip('menu')}/>
           </Link>
           <Link to='about'>
-            <img className='nav-icon' src={happy} alt='happy face icon' />
+            <img className='nav-icon' src={happy} alt='happy face icon' onMouseEnter={()=>this.toggleTooltip('about')} onMouseLeave={()=>this.toggleTooltip('menu')}/>
           </Link>
           <Link to='notes'>
-            <img className='nav-icon' src={file} alt='files icon' />
+            <img className='nav-icon' src={file} alt='files icon' onMouseEnter={()=>this.toggleTooltip('notes')} onMouseLeave={()=>this.toggleTooltip('menu')}/>
           </Link>
           <a href='mailto:pseuyi@gmail.com?Subject=hi'>
-            <img className='nav-icon' src={mail} alt='email icon' />
+            <img className='nav-icon' src={mail} alt='email icon' onMouseEnter={()=>this.toggleTooltip('send an email')} onMouseLeave={()=>this.toggleTooltip('menu')}/>
           </a>
         </div>
       </Draggable>

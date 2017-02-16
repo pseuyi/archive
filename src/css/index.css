@@ -82,7 +82,29 @@ p {
 .fixed-nav img.nav-icon {
   box-sizing: border-box;
   padding: 5px;
-  width: 64px; }
+  width: 64px;
+  cursor: help; }
+
+/* Hover tooltips */
+.tooltip {
+  position: relative; }
+
+span.tip-content {
+  position: absolute;
+  top: -4em;
+  width: auto;
+  color: black;
+  background: grey;
+  opacity: 0;
+  -webkit-transition: opacity 100ms ease-out;
+  -moz-transition: opacity 100ms ease-out;
+  -ms-transition: opacity 100ms ease-out;
+  -o-transition: opacity 100ms ease-out;
+  transition: opacity 100ms ease-out; }
+
+.tooltip:hover .tip-content {
+  opacity: 1;
+  z-index: 2000; }
 
 .nav {
   font-size: 1em;

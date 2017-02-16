@@ -9,7 +9,6 @@ $och: #77770a;
 $text: black;
 $mute: grey;
 $bg: #aaaaaa;
-// $bg: white;
 // $bg: url('../../public/images/felt.png');
 
 $align: left;
@@ -21,9 +20,6 @@ $align: left;
 	.fixed-nav {
 		display: none;
 	}
-	// .map h2 {
-	// 	display: block;
-	// }
 	h1 {
 		font-size: 2em !important;
 	}
@@ -60,8 +56,6 @@ h1 {
   font-size: 4em;
   padding: 0.1em 0;
 	margin: 0;
-  // border-bottom: solid 1px $text;
-  // -webkit-margin-after: 22px;
   text-align: $align;
 }
 
@@ -117,7 +111,30 @@ p {
     box-sizing: border-box;
     padding: 5px;
     width: 64px;
+		cursor: help;
   }
+}
+/* Hover tooltips */
+.tooltip {
+  position: relative;
+	// cursor: help;
+}
+span.tip-content {
+	position:absolute;
+	top: -4em;
+	width: auto;
+	color: $text;
+	background: $mute;
+	opacity: 0;
+	-webkit-transition:opacity 100ms ease-out;
+	-moz-transition:opacity 100ms ease-out;
+	-ms-transition:opacity 100ms ease-out;
+	-o-transition:opacity 100ms ease-out;
+	transition:opacity 100ms ease-out;
+}
+.tooltip:hover .tip-content {
+	opacity: 1;
+	z-index: 2000;
 }
 
 .nav {
