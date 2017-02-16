@@ -1,10 +1,9 @@
 import React, {Component} from 'react'
-import { projects } from '../notes'
+import { notes } from '../notes'
 import Project from './Project'
 
 export default class extends Component {
   render () {
-    console.log(projects)
     return (
       <div>
         <h1>
@@ -15,7 +14,7 @@ export default class extends Component {
           programming concepts/<br />
           projects in progress
         </h2>
-        <Project projects={projects}/>
+        <Project projects={notes}/>
       </div>
     )
   }

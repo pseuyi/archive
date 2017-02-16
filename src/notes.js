@@ -1,5 +1,4 @@
-// array of project and note objects
-export const projects = [
+export const notes = [
   {
     url: '/',
     name: 'scalene',

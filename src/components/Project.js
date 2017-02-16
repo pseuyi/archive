@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+var ReactMarkdown = require('react-markdown');
 
 export default class extends Component {
   render () {
@@ -12,15 +13,17 @@ export default class extends Component {
               col-md-6
               col-lg-4">
               <div className="project box ">
-                <a href={`${proj.url}`}>
+                <a href={`${proj.url}`} target="_blank">
                   <img className="thumbnail" src={process.env.PUBLIC_URL + (proj.imgsrc? proj.imgsrc : `images/${proj.name}.png`)} alt={`${proj.name} thumbnail`} />
                   <h3>{proj.name}</h3>
                 </a>
-                <a href={proj.giturl} className="octicon">
-                  {'< / >'}
-                </a>
+                {
+                  proj.giturl.length>0? (<a href={proj.giturl} className="octicon" target="_blank">
+                  {'< / >'}</a>)
+                  : null
+                }
                 <p className='type'>{proj.type}</p>
-                <p>{proj.desc}</p>
+                <ReactMarkdown source={proj.desc} />
               </div>
             </div>
         ))
