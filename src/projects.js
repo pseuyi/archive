@@ -9,7 +9,7 @@ export default [
   },
   {
     url: 'http://pgb-vsu.club',
-    name: 'pgb-vsu',
+    name: 'pgb-vsu.club',
     giturl: 'https://github.com/pseuyi/pgb_vsu',
     type: 'web app',
     desc: 'sequence and process sampled music in a 3d environment. check this project out in the tone.js demos https://tonejs.github.io/demos'
