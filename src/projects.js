@@ -1,6 +1,14 @@
 // array of project objects
 export default [
   {
+    url: 'https://iso-note.herokuapp.com',
+    name: 'iso note',
+    imgsrc: '/images/iso.png',
+    giturl: 'https://github.com/pseuyi/iso',
+    type: 'web app',
+    desc: 'simple browser note-taking app that deftly converts user input between plain text, markdown, and html.'
+  },
+  {
     url: 'https://github.com/pseuyi/too-many-tabs-keys',
     name: 'tab keys',
     giturl: 'https://github.com/pseuyi/too-many-tabs-keys',
