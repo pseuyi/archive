@@ -20,14 +20,14 @@ export default [
     name: 'pgb-vsu.club',
     giturl: 'https://github.com/pseuyi/pgb_vsu',
     type: 'web app',
-    desc: 'sequence and process sampled music in a 3d environment. \n\ncheck this project out in the [__tone.js demos__](https://tonejs.github.io/demos).'
+    desc: 'sequence and process sampled music in a 3d environment. presentational mobile touch interface experimenting with nexusUI. \n\ncheck this project out in the [__tone.js demos__](https://tonejs.github.io/demos).'
   },
   {
     url: 'https://stormy-forest-41556.herokuapp.com/products',
     name: 'carefull box',
     giturl: 'https://github.com/pseuyi/carefull_boxxes',
     type: 'e-commerce website',
-    desc: 'shop for gift boxes searchable by category. \n\nmodeled with the popular online subscription box model in mind.'
+    desc: 'shop for gift boxes searchable by category. allows registered and unregistered users to keep track of their shopping cart and previous orders. \n\nmodeled with the popular online subscription box model in mind.'
   },
   {
     url: 'https://github.com/pseuyi/post_human_weather',
@@ -42,21 +42,21 @@ export default [
     imgsrc: 'images/slimebase.png',
     giturl: 'https://github.com/pseuyi/_sSlimebase',
     type: 'c.r.u.d. app',
-    desc: 'tool to archive endangered snails in a postgreSQL database.'
+    desc: 'tool to archive endangered snails in a react app with a backend.'
   },
   {
     url: 'https://github.com/pseuyi/xore.me',
     name: 'xore.me',
     giturl: 'https://github.com/pseuyi/xore.me',
     type: 'c.r.u.d. app',
-    desc: 'save to and explore an anonymous library of music videos/playlists.'
+    desc: 'save to and explore an anonymous library of music videos/playlists. \n\nan exercise to create persistent, userless data using a postgresSQL database and a clean, readable RESTful api'
   },
   {
     url: 'https://vespertine-rhythms.herokuapp.com/',
     name: 'vespertine rhythms',
     giturl: 'https://github.com/pseuyi/vespertine_rhythms',
     type: 'experimental web app',
-    desc: 'draw paths between various locations in nyc. \n\nlocation data comes from queries to the foursquare api.'
+    desc: 'draw paths between various locations in nyc. location data comes from queries to the foursquare api.'
   },
   {
     url: 'https://cdn.rawgit.com/pseuyi/robitussyn/66188512/index.html',
