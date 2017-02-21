@@ -36,10 +36,11 @@ export default class extends Component {
           </div>
         </ul>
         <div className='links'>
-          <a href='https://github.com/pseuyi'>github</a>
-          <a href='https://www.linkedin.com/in/pseuyi'>linkedin</a>
-          <a href='https://www.are.na/freda-nada'>are.na</a>
-          <a href='mailto:pseuyi@gmail.com?Subject=hi'>email</a>
+          <a href='https://github.com/pseuyi' target="_blank">github</a>
+          <a href='https://www.linkedin.com/in/pseuyi' target="_blank">linkedin</a>
+          <a href='https://www.are.na/freda-nada' target="_blank">are.na</a>
+          <a href='/cv' target="_blank">cv</a>
+          <a href='mailto:pseuyi@gmail.com?Subject=hi' target="_blank">email</a>
         </div>
       </div>
     )

@@ -29,7 +29,7 @@ export default class extends Component {
             <img className='nav-icon' src={happy} alt='happy face icon' onMouseEnter={()=>this.toggleTooltip('about')} onMouseLeave={()=>this.toggleTooltip('menu')}/>
           </Link>
           <Link to='notes'>
-            <img className='nav-icon' src={file} alt='files icon' onMouseEnter={()=>this.toggleTooltip('notes')} onMouseLeave={()=>this.toggleTooltip('menu')}/>
+            <img className='nav-icon' src={file} alt='files icon' onMouseEnter={()=>this.toggleTooltip('ongoing projects')} onMouseLeave={()=>this.toggleTooltip('menu')}/>
           </Link>
           <a href='mailto:pseuyi@gmail.com?Subject=hi'>
             <img className='nav-icon' src={mail} alt='email icon' onMouseEnter={()=>this.toggleTooltip('send an email')} onMouseLeave={()=>this.toggleTooltip('menu')}/>

@@ -5,6 +5,7 @@
   "devDependencies": {
     "gh-pages": "^0.12.0",
     "node-sass": "^4.5.0",
+    "pdfjs-dist": "^1.7.310",
     "react-scripts": "0.9.0"
   },
   "dependencies": {

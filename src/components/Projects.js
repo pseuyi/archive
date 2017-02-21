@@ -14,10 +14,11 @@ export default class extends Component {
           freda suyi nada/ding <br />
         is a chinatown, nyc based web developer <br />
           <div className='links'>
-            <a href='https://github.com/pseuyi'>github</a>
-            <a href='https://www.linkedin.com/in/pseuyi'>linkedin</a>
-            <a href='https://www.are.na/freda-nada'>are.na</a>
-            <a href='https://twitter.com/pseuyi'>@pseuyi</a>
+            <a href='https://github.com/pseuyi' target="_blank">github</a>
+            <a href='https://www.linkedin.com/in/pseuyi' target="_blank">linkedin</a>
+            <a href='https://www.are.na/freda-nada' target="_blank">are.na</a>
+            <a href='/cv' target="_blank">cv</a>
+            <a href='https://twitter.com/pseuyi' target="_blank">@pseuyi</a>
           </div>
           select projects they have worked on recently:
         </h1>
