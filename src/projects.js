@@ -52,13 +52,6 @@ export default [
     desc: 'my first app using aframe. this demo juxtaposes a tense scene from \'mulholland drive\' with a 3d rendering of the blue box prop. \n\nusing aframe click listeners to register interactivity.'
   },
   {
-    url: '/',
-    name: 'scalene',
-    giturl: 'https://github.com/pseuyi/scalene',
-    type: 'experimental web app',
-    desc: 'sound/space'
-  },
-  {
     url: 'https://youtu.be/axkYGLtmlwc',
     name: 'crypto consensus',
     giturl: '',
@@ -81,3 +74,11 @@ export default [
     desc: 'save to and explore an anonymous library of music videos/playlists. \n\nan exercise to create persistent, userless data using a postgresSQL database and a clean, readable RESTful api'
   },
 ]
+
+// {
+//   url: '/',
+//   name: 'scalene',
+//   giturl: 'https://github.com/pseuyi/scalene',
+//   type: 'experimental web app',
+//   desc: 'sound/space'
+// },
