@@ -20,7 +20,21 @@ export const notes = [
     giturl: '',
     type: 'prototype',
     desc: 'developing a new sense with a group of fabricators, artists, and ux designers for the cyborg foundation. we are working to conceptualize a way for humans to better understand radiation in a rapidly evolving environment where radiation, even at certain detectable wavelengths, goes largely unnoticed. \n\nwill this enhancement provide a new sense of danger when encountering ionizing radiation, for example? or will it augment our ability to feel warmth and connectedness. lab space provided by Parsons/The New School'
-  }
+  },
+  {
+    url: 'https://cdn.rawgit.com/pseuyi/robitussyn/66188512/index.html',
+    name: 'robitussyn',
+    giturl: 'https://github.com/pseuyi/robitussyn',
+    type: 'vr experiment',
+    desc: 'my first app using aframe. this demo juxtaposes a tense scene from \'mulholland drive\' with a 3d rendering of the blue box prop. \n\nusing aframe click listeners to register interactivity.'
+  },
+  {
+    url: 'https://youtu.be/axkYGLtmlwc',
+    name: 'crypto consensus',
+    giturl: '',
+    type: 'presentation',
+    desc: 'a talk giving a brief overview of ethereum, smart contracts and javascript apps along the blockchain aka Dapps'
+  },
 ]
 
 // {
