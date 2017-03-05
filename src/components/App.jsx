@@ -1,11 +1,13 @@
 import React from 'react'
 import FixedNav from './FixedNav'
 
-const App = ()=>(
-  <div className="app">
-    {this.props.children}
-    <FixedNav />
-  </div>
-)
-
-export default App
+export default class extends React.Component {
+  render () {
+    return (
+      <div className="app">
+        { this.props.children }
+        <FixedNav />
+      </div>
+    )
+  }
+}

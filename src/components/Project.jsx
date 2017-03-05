@@ -2,8 +2,8 @@ import React from 'react'
 
 const ReactMarkdown = require('react-markdown')
 
-const Project = ()=>{
-  const projects = this.props.projects
+const Project = (props)=>{
+  const projects = props.projects
   return (
     <div className="row">
       {

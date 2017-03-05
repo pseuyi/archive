@@ -1,5 +1,4 @@
-export default notes = [
-
+export default [
   {
     url: 'https://github.com/dyoungsmith/tabula-rasa',
     name: 'tabula rasa',

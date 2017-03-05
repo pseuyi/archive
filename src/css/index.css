@@ -69,8 +69,8 @@ p {
   position: absolute;
   top: 40px;
   right: 40px;
-  width: 128px;
-  height: calc(64*6);
+  width: 116px;
+  height: calc(58*6);
   border: solid 1px black; }
 
 .fixed-nav p {
@@ -82,7 +82,7 @@ p {
 .fixed-nav img.nav-icon {
   box-sizing: border-box;
   padding: 5px;
-  width: 64px;
+  width: 58px;
   cursor: help; }
 
 /* Hover tooltips */
@@ -123,12 +123,11 @@ a {
 
 a:hover {
   text-decoration: none;
-  color: #77770a;
   cursor: pointer; }
 
 .project.box {
   margin: 2em 1em 2em 0;
-  padding: 4em;
+  padding: 3em;
   border: solid 1px grey;
   background: #aaaaaa; }
 
@@ -142,9 +141,25 @@ a:hover {
   color: grey; }
 
 .thumbnail {
-  padding: 0 12.5%;
-  width: 75%;
-  border: solid 0px #eae43a; }
+  padding: 0 10%;
+  width: 80%;
+  transition: padding 0.3s, width 0.3s; }
+
+.thumbnail:hover {
+  padding: 0 9%;
+  width: 82%; }
+
+@keyframes breathing {
+  0%, 70% {
+    -webkit-transform: scale(0.92);
+    -ms-transform: scale(0.92);
+    transform: scale(0.92);
+    transform: translateY(-15px); }
+  25%, 100% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    transform: translateY(0); } }
 
 .octicon {
   padding: 0 0.3em;
@@ -179,7 +194,7 @@ a:hover {
 
 .links a:hover {
   color: black;
-  border-bottom: solid 1px red; }
+  border-bottom: solid 1px black; }
 
 .map {
   position: relative;

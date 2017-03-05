@@ -1,5 +1,5 @@
 import React from 'react'
-import { notes } from '../notes'
+import notes from '../notes'
 import Project from './Project'
 
 const Notes = ()=>(

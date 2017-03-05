@@ -8,7 +8,8 @@ module.exports = {
     "rules": {
         "semi": ["error", "never"],
         "space-before-function-paren": ["error", "always"],
-        "arrow-spacing": ["error", { "before": false, "after": false }]
+        "arrow-spacing": ["error", { "before": false, "after": false }],
+        "prop=types": [0]
     },
     valid: [
     {
