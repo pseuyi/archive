@@ -10,14 +10,14 @@ import './css/index.css'
 
 ReactDOM.render(
   (
-  <Router history={browserHistory}>
-    <Route path='/' component={App}>
-      <IndexRoute component={Projects}/>
-      <Route path='about' component={About}/>
-      <Route path='projects' component={Projects}/>
-      <Route path='notes' component={Notes}/>
-    </Route>
-    <Route path='cv' component={Resume}/>
-  </Router>
+    <Router history={browserHistory}>
+      <Route path="/" component={App}>
+        <IndexRoute component={Projects} />
+        <Route path="about" component={About} />
+        <Route path="projects" component={Projects} />
+        <Route path="notes" component={Notes} />
+      </Route>
+      <Route path="cv" component={Resume} />
+    </Router>
   ),
-  document.getElementById('app'))
+document.getElementById('app'))

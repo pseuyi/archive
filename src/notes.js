@@ -1,4 +1,4 @@
-export const notes = [
+export default notes = [
 
   {
     url: 'https://github.com/dyoungsmith/tabula-rasa',
