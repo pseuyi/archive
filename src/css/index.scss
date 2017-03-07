@@ -94,20 +94,29 @@ p {
 }
 
 .fixed-nav {
-	background: $bg;
+	background: $mute;
   position: absolute;
   top: 40px;
   right: 40px;
   width: 116px;
+  height: 116px;
+  border-radius: 136px;
+  padding: 2em;
   height: calc(58*6);
-  border: solid 1px $text;
+  //border: solid 1px $text;
 	// -webkit-animation: breathing 1s ease-out 1 normal;
 	// animation: breathing 1s ease-out 1 normal;
   p {
+    position: absolute;
     text-align: center;
+    top: -1.4em;
+    right: 0;
     padding: 0.2em 0;
     margin: 0;
-    border-bottom: 1px solid $mute;
+    color: $text;
+    font-family: $font;
+    background: $mute;
+    // border-bottom: 1px solid $accent;
   }
   img.nav-icon {
     box-sizing: border-box;
@@ -123,7 +132,7 @@ p {
 }
 span.tip-content {
 	position:absolute;
-	top: -4em;
+	top: -1em;
 	width: auto;
 	color: $text;
 	background: $mute;
@@ -164,9 +173,8 @@ a:hover {
 
 .project.box {
   margin: 2em 1em 2em 0;
-	padding: 3em;
+	padding: 4.4em;
 	border: solid 1px $mute;
-	background: $bg;
 }
 
 .project p {
@@ -179,16 +187,23 @@ a:hover {
   color: $mute;
 }
 
-.thumbnail {
-	padding: 0 10%;
-	width: 80%;
-	transition: padding 0.3s, width 0.3s;
+.project .desc {
+  display: none;
+}
+.project:hover .desc {
+  display: block;
 }
 
-.thumbnail:hover {
-	padding: 0 9%;
-	width: 82%;
+.thumbnail {
+	//padding: 0 10%;
+	width: 100%;
+	//transition: padding 0.3s, width 0.3s;
 }
+
+// .thumbnail:hover {
+// 	padding: 0 9%;
+// 	width: 82%;
+// }
 
 @keyframes breathing {
   0%, 70% {

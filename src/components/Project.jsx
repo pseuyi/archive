@@ -33,7 +33,7 @@ const Project = (props)=>{
                 : null
               }
               <p className="type">{proj.type}</p>
-              <ReactMarkdown source={proj.desc} />
+              <ReactMarkdown className="desc" source={proj.desc} />
             </div>
           </div>
         ))

@@ -65,19 +65,26 @@ p {
   font-family: "Open Sans", sans-serif; }
 
 .fixed-nav {
-  background: #aaaaaa;
+  background: grey;
   position: absolute;
   top: 40px;
   right: 40px;
   width: 116px;
-  height: calc(58*6);
-  border: solid 1px black; }
+  height: 116px;
+  border-radius: 136px;
+  padding: 2em;
+  height: calc(58*6); }
 
 .fixed-nav p {
+  position: absolute;
   text-align: center;
+  top: -1.4em;
+  right: 0;
   padding: 0.2em 0;
   margin: 0;
-  border-bottom: 1px solid grey; }
+  color: black;
+  font-family: "Lora", serif;
+  background: grey; }
 
 .fixed-nav img.nav-icon {
   box-sizing: border-box;
@@ -91,7 +98,7 @@ p {
 
 span.tip-content {
   position: absolute;
-  top: -4em;
+  top: -1em;
   width: auto;
   color: black;
   background: grey;
@@ -127,9 +134,8 @@ a:hover {
 
 .project.box {
   margin: 2em 1em 2em 0;
-  padding: 3em;
-  border: solid 1px grey;
-  background: #aaaaaa; }
+  padding: 4.4em;
+  border: solid 1px grey; }
 
 .project p {
   font-family: "Open Sans", sans-serif;
@@ -140,14 +146,14 @@ a:hover {
 .project p.type {
   color: grey; }
 
-.thumbnail {
-  padding: 0 10%;
-  width: 80%;
-  transition: padding 0.3s, width 0.3s; }
+.project .desc {
+  display: none; }
 
-.thumbnail:hover {
-  padding: 0 9%;
-  width: 82%; }
+.project:hover .desc {
+  display: block; }
+
+.thumbnail {
+  width: 100%; }
 
 @keyframes breathing {
   0%, 70% {

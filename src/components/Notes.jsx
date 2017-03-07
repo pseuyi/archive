@@ -5,13 +5,12 @@ import Project from './Project'
 const Notes = ()=>(
   <div>
     <h1>
-      ongoing <br />
+      assorted notes <br />
     </h1>
     <h2>
+      ongoing projects/<br />
       assorted app sketches/<br />
-      programming concepts/<br />
-      notes/<br />
-      ongoing projects
+      writing on new media<br />
     </h2>
     <Project projects={notes} />
   </div>
