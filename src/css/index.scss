@@ -94,28 +94,28 @@ p {
 }
 
 .fixed-nav {
-	background: $mute;
+	background: $bg;
   position: absolute;
   top: 40px;
   right: 40px;
   width: 116px;
   height: 116px;
-  border-radius: 136px;
-  padding: 2em;
+  // border-radius: 136px;
+  padding: 0.4em;
   height: calc(58*6);
-  //border: solid 1px $text;
+  border: solid 1px $text;
 	// -webkit-animation: breathing 1s ease-out 1 normal;
 	// animation: breathing 1s ease-out 1 normal;
   p {
     position: absolute;
-    text-align: center;
+    text-align: left;
     top: -1.4em;
     right: 0;
     padding: 0.2em 0;
     margin: 0;
     color: $text;
     font-family: $font;
-    background: $mute;
+    // background: $mute;
     // border-bottom: 1px solid $accent;
   }
   img.nav-icon {

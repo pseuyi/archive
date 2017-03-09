@@ -65,26 +65,25 @@ p {
   font-family: "Open Sans", sans-serif; }
 
 .fixed-nav {
-  background: grey;
+  background: #aaaaaa;
   position: absolute;
   top: 40px;
   right: 40px;
   width: 116px;
   height: 116px;
-  border-radius: 136px;
-  padding: 2em;
-  height: calc(58*6); }
+  padding: 0.4em;
+  height: calc(58*6);
+  border: solid 1px black; }
 
 .fixed-nav p {
   position: absolute;
-  text-align: center;
+  text-align: left;
   top: -1.4em;
   right: 0;
   padding: 0.2em 0;
   margin: 0;
   color: black;
-  font-family: "Lora", serif;
-  background: grey; }
+  font-family: "Lora", serif; }
 
 .fixed-nav img.nav-icon {
   box-sizing: border-box;
