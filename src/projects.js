@@ -5,7 +5,7 @@ export default [
     name: 'e-doser',
     giturl: 'https://github.com/pseuyi/e-doser',
     type: 'vr app',
-    desc: 'e-doser is a vr experiment that builds on the ideas of i-doser, an app that uses binaural audio recordings to simulate moods and experiences--sometimes referred to as \'audio drugs\'. \n\nrequires a webvr enabled browser.'
+    desc: 'e-doser is an in progress vr experiment that builds on the ideas of i-doser, an app that uses binaural audio recordings to simulate moods and experiences--sometimes referred to as \'audio drugs\'. \n\nrequires a webvr enabled browser.'
   },
   {
     url: 'https://iso-note.herokuapp.com',
