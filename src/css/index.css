@@ -146,10 +146,12 @@ a:hover {
   color: grey; }
 
 .project .desc {
-  display: none; }
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height 1.6s ease; }
 
 .project:hover .desc {
-  display: block; }
+  max-height: 1000px; }
 
 .thumbnail {
   width: 100%; }
