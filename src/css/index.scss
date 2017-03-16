@@ -95,28 +95,29 @@ p {
 
 .fixed-nav {
 	background: $bg;
-  position: absolute;
-  top: 40px;
-  right: 40px;
+  position: fixed;
+  top: 38px;
+  right: 38px;
   width: 116px;
-  height: 116px;
+  // height: 116px;
   // border-radius: 136px;
-  padding: 0.4em;
-  height: calc(58*6);
+  // padding: 0.4em;
+  height: calc(64*6);
   border: solid 1px $text;
 	// -webkit-animation: breathing 1s ease-out 1 normal;
 	// animation: breathing 1s ease-out 1 normal;
   p {
-    position: absolute;
-    text-align: left;
-    top: -1.4em;
-    right: 0;
+    // position: absolute;
+    // text-align: left;
+    // top: -1.4em;
+    // right: 0;
     padding: 0.2em 0;
     margin: 0;
     color: $text;
     font-family: $font;
-    // background: $mute;
-    // border-bottom: 1px solid $accent;
+		line-height: 1.2em;
+		text-align: center;
+		border-bottom: 1px solid $text;
   }
   img.nav-icon {
     box-sizing: border-box;
@@ -174,7 +175,10 @@ a:hover {
 .project.box {
   margin: 2em 1em 2em 0;
 	padding: 4.4em;
-	border: solid 1px $mute;
+	// border: solid 1px $mute;
+	// -webkit-box-shadow: 7px 6px 59px -5px rgba(232,255,61,0.96);
+	// -moz-box-shadow: 7px 6px 59px -5px rgba(232,255,61,0.96);
+	// box-shadow: 7px 6px 59px -5px rgba(232,255,61,0.96);
 }
 
 .project p {
@@ -252,11 +256,15 @@ a:hover {
 .links a {
 	font-family: $font;
 	padding: 0.3em;
-	margin-right: 1em;
+	// margin-right: 1em;
 	display: inline-block;
 	font-size: 22px;
-	// border-bottom: solid 1px $text;
-	border: solid 1px $mute;
+	border-left: solid 1px $mute;
+	border-top: solid 1px $mute;
+	border-bottom: solid 1px $mute;
+}
+.links a:last-child {
+	border-right: solid 1px $mute;
 }
 .links a:hover {
 	color: $text;

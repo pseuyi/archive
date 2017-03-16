@@ -66,24 +66,21 @@ p {
 
 .fixed-nav {
   background: #aaaaaa;
-  position: absolute;
-  top: 40px;
-  right: 40px;
+  position: fixed;
+  top: 38px;
+  right: 38px;
   width: 116px;
-  height: 116px;
-  padding: 0.4em;
-  height: calc(58*6);
+  height: calc(64*6);
   border: solid 1px black; }
 
 .fixed-nav p {
-  position: absolute;
-  text-align: left;
-  top: -1.4em;
-  right: 0;
   padding: 0.2em 0;
   margin: 0;
   color: black;
-  font-family: "Lora", serif; }
+  font-family: "Lora", serif;
+  line-height: 1.2em;
+  text-align: center;
+  border-bottom: 1px solid black; }
 
 .fixed-nav img.nav-icon {
   box-sizing: border-box;
@@ -133,8 +130,7 @@ a:hover {
 
 .project.box {
   margin: 2em 1em 2em 0;
-  padding: 4.4em;
-  border: solid 1px grey; }
+  padding: 4.4em; }
 
 .project p {
   font-family: "Open Sans", sans-serif;
@@ -194,10 +190,14 @@ a:hover {
 .links a {
   font-family: "Lora", serif;
   padding: 0.3em;
-  margin-right: 1em;
   display: inline-block;
   font-size: 22px;
-  border: solid 1px grey; }
+  border-left: solid 1px grey;
+  border-top: solid 1px grey;
+  border-bottom: solid 1px grey; }
+
+.links a:last-child {
+  border-right: solid 1px grey; }
 
 .links a:hover {
   color: black;
