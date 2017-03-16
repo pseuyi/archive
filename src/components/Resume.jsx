@@ -10,7 +10,7 @@ import React from 'react'
 const Resume = ()=>(
   <div>
     <iframe
-      src="https://drive.google.com/file/d/0B68CVIS6IOsdWlQ0ejRFYnRSVXc/preview"
+      src="https://drive.google.com/file/d/0B68CVIS6IOsdbFJ0aldUWWJFRVE/preview"
       width="100%"
       height="800"
       frameBorder="0"
