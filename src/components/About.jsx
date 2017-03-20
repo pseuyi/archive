@@ -7,7 +7,7 @@ const About = ()=>(
     <ul>
       <li className="desc">
         <p>freda nada (freda suyi ding) is a web developer based in chinatown, nyc <br />
-        interested in topics related to new media, digital labor, and frameworks for social progress
+        interested in topics related to new media, creative coding, and frameworks for social progress
         </p>
       </li>
       <div className="row">
@@ -18,7 +18,7 @@ const About = ()=>(
           col-lg-6"
         >
           <h4>currently</h4>
-          <p>* teaching fellow for an immersive online code school<br />
+          <p>* teaching fellow and engineering intern for an immersive online code school<br />
             * mentor for syrian women learning javascript
           </p>
         </li>
@@ -30,9 +30,9 @@ const About = ()=>(
         >
           <h4>previously</h4>
           <p>
-            * management consultant in silicon valley<br />
             * freelance @ NEW INC<br />
             * live programming intern @ PS1<br />
+            * management consultant in silicon valley<br />
             * data analyst @ AOL
           </p>
         </li>

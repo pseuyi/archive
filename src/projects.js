@@ -64,7 +64,7 @@ export default [
     imgsrc: '/images/monegraph.png',
     giturl: '',
     type: 'writing',
-    desc: 'recap of the monegraph app launch',
+    desc: '',
   },
 
 ]
