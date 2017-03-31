@@ -18,7 +18,6 @@ export default class extends Component {
             <a href="https://www.linkedin.com/in/pseuyi" target="_blank" rel="noopener noreferrer">linkedin</a>
             <a href="https://www.are.na/freda-nada" target="_blank" rel="noopener noreferrer">are.na</a>
             <a href="/cv" target="_blank" rel="noopener noreferrer">cv</a>
-            <a href="https://twitter.com/pseuyi" target="_blank" rel="noopener noreferrer">@pseuyi</a>
             <a
               href="mailto:pseuyi@gmail.com?Subject=hi"
               target="_blank" rel="noopener noreferrer"
