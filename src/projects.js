@@ -1,7 +1,7 @@
 // array of project objects
 export default [
   {
-    url: 'http://pseuyi.xyz/e-doser',
+    url: 'https://pseuyi.xyz/e-doser',
     name: 'e-doser',
     giturl: 'https://github.com/pseuyi/e-doser',
     type: 'vr app',
@@ -16,7 +16,7 @@ export default [
     desc: 'simple browser note-taking app that deftly converts user input between plain text, markdown, and html. \n\n currently developing user authentication via google to allow notes to persist.'
   },
   {
-    url: 'http://pgb-vsu.club',
+    url: 'https://pgb-vsu.club',
     name: 'pgb-vsu.club',
     giturl: 'https://github.com/pseuyi/pgb_vsu',
     type: 'web app',
@@ -59,7 +59,7 @@ export default [
     desc: 'shop for gift boxes searchable by category. allows registered and unregistered users to keep track of their shopping cart and previous orders. \n\nmodeled with the popular online subscription box model in mind.'
   },
   {
-    url: 'http://www.newinc.org/blog-post/monegraph-launches-in-app-stores',
+    url: 'https://www.newinc.org/blog-post/monegraph-launches-in-app-stores',
     name: 'monegraph: blockchain platform for digital art',
     imgsrc: '/images/monegraph.png',
     giturl: '',

@@ -10,7 +10,7 @@ export default class extends Component {
   render () {
     return (
       <div>
-        <h1>{'http://'}pseuyi.xyz<br />
+        <h1>{'https://'}pseuyi.xyz<br />
           freda suyi nada/ding <br />
           is a chinatown, nyc based web developer <br />
           <div className="links">
