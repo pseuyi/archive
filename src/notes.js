@@ -7,7 +7,7 @@ export default [
     desc: 'an ongoing project with the digital story-telling lab @ columbia university to leverage ar/vr/mixed reality tools to create better dialogue between police officers and incarcerated youth in richmond, va. \n\ni was able to work with designers, social activists, and insightful teenagers to discuss early stage ideas for a vr training tool to improve policing. we discussed ux design challenges, whiteboarded narratives for empathy, and developed prototypes for tools that express the past, present, and future of incarcerated youth. \n\na spreadsheet of some of the ideas being developed can be found __[here.](https://docs.google.com/spreadsheets/d/1ZRLXVhjrNZg_iSO1HuL_p9iEAzOH4l0QXejgI9FYL5U/edit#gid=1337873918)__',
   },
   {
-    url: 'https://pseuyi.xyz/base_layer_0/',
+    url: 'http://pseuyi.xyz/base_layer_0/',
     name: 'base layer',
     giturl: '',
     type: 'layout',
