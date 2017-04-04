@@ -1,7 +1,7 @@
 // array of project objects
 export default [
   {
-    url: 'https://pseuyi.xyz/e-doser',
+    url: 'http://pseuyi.xyz/e-doser',
     name: 'e-doser',
     giturl: 'https://github.com/pseuyi/e-doser',
     type: 'vr app',
