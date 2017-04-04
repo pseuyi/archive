@@ -16,7 +16,7 @@ export default [
     desc: 'simple browser note-taking app that deftly converts user input between plain text, markdown, and html. \n\n currently developing user authentication via google to allow notes to persist.'
   },
   {
-    url: 'https://pgb-vsu.club',
+    url: 'http://pgb-vsu.club',
     name: 'pgb-vsu.club',
     giturl: 'https://github.com/pseuyi/pgb_vsu',
     type: 'web app',
