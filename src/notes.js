@@ -25,21 +25,21 @@ export default [
     name: 'simulating feeling',
     imgsrc: '/images/feedback.png',
     giturl: '',
-    type: 'writing',
+    type: 'essay',
     desc: '',
   },
   {
     url: 'https://topicalcream.info/editorial/martine-syms-veritcal-elevated-oblique/',
     name: 'vertical elevated oblique',
     giturl: '',
-    type: 'writing',
+    type: 'essay',
     desc: '',
   },
   {
     url: '  https://www.newinc.org/blog-post/volvoxlabs-shares-the-making-of-their-collaboration-with-neon-indian',
     name: 'volvox labs',
     giturl: '',
-    type: 'writing',
+    type: 'essay',
     desc: '',
   },
   {
@@ -76,7 +76,7 @@ export default [
     url: 'https://topicalcream.info/editorial/xpl-life/',
     name: 'xpl life',
     giturl: '',
-    type: 'writing',
+    type: 'essay',
     desc: ''
   },
 

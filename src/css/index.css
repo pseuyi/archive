@@ -1,243 +1,97 @@
-@media (max-width: 720px) {
-  body {
-    padding: 0.4em !important; }
-  .fixed-nav {
-    display: none; }
-  h1 {
-    font-size: 2em !important; }
-  .links a {
-    margin: 0 !important; }
-  .project.box {
-    border: none !important;
-    padding: 0.4em !important; } }
-
-@media (min-width: 720px) and (max-width: 1024px) {
-  body {
-    padding: 2em 1em !important; } }
-
-@media (min-width: 1024px) and (max-width: 1400px) {
-  body {
-    padding: 2em !important; } }
+@font-face {
+  font-family: 'graphik';
+  src: url(/public/Graphik-Regular.otf); }
 
 body {
-  background: #aaaaaa;
-  padding: 2em;
-  color: black;
-  font-size: 12px; }
-
-h1 {
-  color: black;
-  font-family: "Lora", serif;
-  font-weight: normal;
-  font-size: 4em;
-  padding: 0.1em 0;
-  margin: 0;
-  text-align: left; }
-
-h2 {
-  color: black;
-  font-size: 2em;
-  font-weight: normal;
-  padding: 0.4em 0;
-  -webkit-margin-after: 22px;
-  margin: 0;
-  font-family: "Lora", serif;
-  text-align: left; }
-
-h3 {
-  font-family: "Lora", serif;
-  font-size: 1.8em;
-  font-weight: normal;
-  margin: 0.5em 0; }
-
-h4 {
-  color: black;
-  font-size: 1em;
-  font-weight: normal;
-  padding: 0.4em 0;
-  margin: 0;
-  font-family: "Lora", serif;
-  border-bottom: solid 1px black;
-  text-align: left;
-  display: inline-block; }
-
-p {
-  font-family: "Open Sans", sans-serif; }
-
-.fixed-nav {
-  background: #aaaaaa;
-  position: fixed;
-  top: 38px;
-  right: 38px;
-  width: 116px;
-  height: calc(64*6);
-  border: solid 1px black; }
-
-.fixed-nav p {
-  padding: 0.2em 0;
-  margin: 0;
-  color: black;
-  font-family: "Lora", serif;
-  line-height: 1.2em;
-  text-align: center;
-  border-bottom: 1px solid black; }
-
-.fixed-nav img.nav-icon {
-  box-sizing: border-box;
-  padding: 5px;
-  width: 58px;
-  cursor: help; }
-
-/* Hover tooltips */
-.tooltip {
+  font-family: 'graphik', 'Open Sans', sans-serif;
+  line-height: 1.6rem;
+  background: #ffffff;
   position: relative; }
 
-span.tip-content {
+.scroll-fix {
+  height: 600px;
+  width: 15rem;
+  background: white;
   position: absolute;
-  top: -1em;
-  width: auto;
-  color: black;
-  background: grey;
-  opacity: 0;
-  -webkit-transition: opacity 100ms ease-out;
-  -moz-transition: opacity 100ms ease-out;
-  -ms-transition: opacity 100ms ease-out;
-  -o-transition: opacity 100ms ease-out;
-  transition: opacity 100ms ease-out; }
+  top: 0;
+  left: 0;
+  z-index: 1000; }
 
-.tooltip:hover .tip-content {
-  opacity: 1;
-  z-index: 2000; }
+.app {
+  padding: 1rem 16rem;
+  margin: auto; }
 
-.nav {
-  font-size: 1em;
-  height: 1em;
-  padding: 10px 0;
-  text-align: left;
-  border-bottom: solid 1px grey; }
+h1, h2 {
+  font-family: 'Archivo Black', sans-serif; }
 
-.navigation {
-  -webkit-margin-after: 22px; }
+#title {
+  font-size: 2.8rem; }
 
 a {
-  text-decoration: none;
   color: black;
-  font-family: "Open Sans", sans-serif; }
+  text-decoration: none; }
 
 a:hover {
-  text-decoration: none;
-  cursor: pointer; }
+  color: blue; }
 
-.project.box {
-  margin: 2em 1em 2em 0;
-  padding: 4.4em; }
-
-.project p {
-  font-family: "Open Sans", sans-serif;
-  font-size: 1.1em;
-  line-height: 1.6em;
-  margin-top: 0; }
-
-.project p.type {
-  color: grey; }
-
-.project .desc {
-  max-height: 0px;
-  overflow: hidden;
-  transition: max-height 1.6s ease; }
-
-.project:hover .desc {
-  max-height: 1000px; }
-
-.thumbnail {
-  width: 100%; }
-
-@keyframes breathing {
-  0%, 70% {
-    -webkit-transform: scale(0.92);
-    -ms-transform: scale(0.92);
-    transform: scale(0.92);
-    transform: translateY(-15px); }
-  25%, 100% {
-    -webkit-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1);
-    transform: translateY(0); } }
-
-.octicon {
-  padding: 0 0.3em;
-  border: solid 1px grey;
-  float: right; }
-
-.about {
-  text-align: left; }
-
-.about ul {
+ul.leaders {
+  font-family: 'Open Sans', sans-serif;
+  max-width: 100%;
   padding: 0;
+  overflow-x: hidden;
   list-style: none;
-  font-size: 18px; }
+  line-height: 2rem; }
 
-.about ul li.desc p {
-  color: black;
-  padding: 0; }
+ul.leaders li a {
+  font-weight: bolder;
+  letter-spacing: 2px; }
 
-.about ul li {
-  color: red; }
+ul.leaders li:before {
+  float: left;
+  width: 0;
+  white-space: nowrap;
+  color: #684949;
+  content: "________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________"; }
 
-.about ul li p {
-  color: black; }
+ul.leaders span:first-child {
+  font-weight: 600;
+  padding-right: 0.33em;
+  background: #ffffff; }
+
+ul.leaders span + span {
+  letter-spacing: 1px;
+  float: right;
+  padding-left: 0.33em;
+  background: #ffffff; }
 
 .links a {
-  font-family: "Lora", serif;
-  padding: 0.3em;
-  display: inline-block;
-  font-size: 22px;
-  border-left: solid 1px grey;
-  border-top: solid 1px grey;
-  border-bottom: solid 1px grey; }
+  padding: 0.4rem;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  border-left: 1px solid black; }
 
 .links a:last-child {
-  border-right: solid 1px grey; }
+  border-right: 1px solid black; }
 
-.links a:hover {
-  color: black;
-  border-bottom: solid 1px black; }
+.scroll-head {
+  position: fixed;
+  top: 2.8rem;
+  left: 1.4rem;
+  padding: 0.4rem;
+  font-size: 2rem;
+  font-family: 'Archivo Black', sans-serif;
+  color: black; }
 
-.map {
-  position: relative;
+.screenshot span {
+  height: 100%; }
+
+.screenshots {
+  margin: 4rem 0; }
+
+.thumbnail {
   width: 100%;
-  height: 800px; }
+  margin-bottom: 4rem; }
 
-.map #name {
-  position: absolute;
-  font-size: 44px;
-  top: 26%;
-  left: 20%;
-  background-color: #3397bf;
-  padding: 1em;
-  box-shadow: 0 0 70px 50px #aaaaaa inset;
-  display: inline-block;
-  z-index: 100; }
-
-.map .cloud {
-  font-family: "Lora", serif;
-  font-size: 40px;
-  background-color: grey;
-  padding: 0.6em;
-  box-shadow: 0 0 50px 30px #aaaaaa inset;
-  display: inline-block; }
-
-.map .cloud.link-1 {
-  position: absolute;
-  top: 45%;
-  right: 0; }
-
-.map .cloud.link-2 {
-  position: absolute;
-  left: 20%;
-  bottom: 24%; }
-
-.map .cloud.link-3 {
-  position: absolute;
-  left: 0;
-  top: 5%; }
+.footer {
+  height: 200px;
+  color: #684949; }
