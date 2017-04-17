@@ -2,6 +2,29 @@
   font-family: 'graphik';
   src: url(/public/Graphik-Regular.otf);
 }
+
+$phone-width: 320px;
+$phoneL-width: 480px;
+$tablet-width: 600px;
+$tabletL-width: 768px;
+$desktop-width: 1025px;
+
+@mixin phone {
+  @media (min-width: #{$phone-width}) and (max-width: #{$tablet-width - 1px}) {
+    @content;
+  }
+}
+@mixin tablet {
+  @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
+    @content;
+  }
+}
+@mixin desktop {
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+}
+
 body {
 	font-family: 'graphik', 'Open Sans', sans-serif;
 	line-height: 1.6rem;
@@ -10,7 +33,15 @@ body {
 }
 .scroll-fix {
 	height: 600px;
-	width: 15rem;
+  @include phone {
+    width: 0;
+  }
+  @include tablet {
+    width: 7rem;
+  }
+  @include desktop {
+    width: 15rem;
+  }
 	background: white;
 	position: absolute;
 	top: 0;
@@ -18,13 +49,25 @@ body {
 	z-index: 1000;
 }
 .app {
-	padding: 1rem 16rem;
+  @include phone {
+    padding: 0rem 1rem;
+    font-size: 25%;
+  }
+  @include tablet {
+    padding: 0.7rem 8rem;
+  }
+  @include desktop {
+    padding: 1rem 16rem;
+  }
 	margin: auto;
 }
 h1, h2 {
 	font-family: 'Archivo Black', sans-serif;
 }
 #title {
+  @include phone {
+    font-size: 1.4rem;
+  }
 	font-size: 2.8rem;
 }
 a {
@@ -40,6 +83,9 @@ ul.leaders {
   padding: 0;
   overflow-x: hidden;
   list-style: none;
+  @include phone {
+    line-height: 1rem;
+  }
 	line-height: 2rem;
 	li a {
 		font-weight: bolder;
@@ -96,6 +142,15 @@ ul.leaders {
 	}
 }
 .scroll-head {
+  @include phone {
+    display: none;
+  }
+  @include tablet {
+    display: none;
+  }
+  @include desktop {
+    display: visible;
+  }
 	position: fixed;
 	top: 2.8rem;
 	left: 1.4rem;
@@ -112,6 +167,9 @@ ul.leaders {
 }
 .thumbnail {
 	width: 100%;
+  @include phone {
+    margin-bottom: 1rem;
+  }
 	margin-bottom: 4rem;
 }
 .footer {

@@ -4,7 +4,7 @@ const About = ()=>(
   <div className="about">
     <h2>about</h2>
     <p>freda suyi ding is a web developer based in chinatown, nyc <br />
-       interested in topics related to new media, creative coding, and frameworks for social progress
+       interested in new media, creative coding, and frameworks for social progress
     </p>
     <div className="links">
       <a href="https://github.com/pseuyi" target="_blank" rel="noopener noreferrer">github</a>
@@ -19,37 +19,3 @@ const About = ()=>(
 )
 
 export default About
-// <ul>
-//   <li className="desc">
-//     <p>freda nada (freda suyi ding) is a web developer based in chinatown, nyc <br />
-//     interested in topics related to new media, creative coding, and frameworks for social progress
-//     </p>
-//   </li>
-//   <div className="row">
-//     <li
-//       className="col-xs-12
-//       col-sm-6
-//       col-md-6
-//       col-lg-6"
-//     >
-//       <h4>currently</h4>
-//       <p>* teaching fellow and engineering intern for an immersive online code school<br />
-//         * mentor for syrian women learning javascript
-//       </p>
-//     </li>
-//     <li
-//       className="col-xs-12
-//       col-sm-6
-//       col-md-6
-//       col-lg-6"
-//     >
-//       <h4>previously</h4>
-//       <p>
-//         * freelance @ NEW INC<br />
-//         * live programming intern @ PS1<br />
-//         * management consultant in silicon valley<br />
-//         * data analyst @ AOL
-//       </p>
-//     </li>
-//   </div>
-// </ul>

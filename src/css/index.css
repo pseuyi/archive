@@ -10,22 +10,49 @@ body {
 
 .scroll-fix {
   height: 600px;
-  width: 15rem;
   background: white;
   position: absolute;
   top: 0;
   left: 0;
   z-index: 1000; }
 
+@media (min-width: 320px) and (max-width: 599px) {
+  .scroll-fix {
+    width: 0; } }
+
+@media (min-width: 600px) and (max-width: 1024px) {
+  .scroll-fix {
+    width: 7rem; } }
+
+@media (min-width: 1025px) {
+  .scroll-fix {
+    width: 15rem; } }
+
 .app {
-  padding: 1rem 16rem;
   margin: auto; }
+
+@media (min-width: 320px) and (max-width: 599px) {
+  .app {
+    padding: 0rem 1rem;
+    font-size: 25%; } }
+
+@media (min-width: 600px) and (max-width: 1024px) {
+  .app {
+    padding: 0.7rem 8rem; } }
+
+@media (min-width: 1025px) {
+  .app {
+    padding: 1rem 16rem; } }
 
 h1, h2 {
   font-family: 'Archivo Black', sans-serif; }
 
 #title {
   font-size: 2.8rem; }
+
+@media (min-width: 320px) and (max-width: 599px) {
+  #title {
+    font-size: 1.4rem; } }
 
 a {
   color: black;
@@ -41,6 +68,10 @@ ul.leaders {
   overflow-x: hidden;
   list-style: none;
   line-height: 2rem; }
+
+@media (min-width: 320px) and (max-width: 599px) {
+  ul.leaders {
+    line-height: 1rem; } }
 
 ul.leaders li a {
   font-weight: bolder;
@@ -99,6 +130,18 @@ ul.leaders li:hover .project-desc {
   font-family: 'Archivo Black', sans-serif;
   color: black; }
 
+@media (min-width: 320px) and (max-width: 599px) {
+  .scroll-head {
+    display: none; } }
+
+@media (min-width: 600px) and (max-width: 1024px) {
+  .scroll-head {
+    display: none; } }
+
+@media (min-width: 1025px) {
+  .scroll-head {
+    display: visible; } }
+
 .screenshot span {
   height: 100%; }
 
@@ -108,6 +151,10 @@ ul.leaders li:hover .project-desc {
 .thumbnail {
   width: 100%;
   margin-bottom: 4rem; }
+
+@media (min-width: 320px) and (max-width: 599px) {
+  .thumbnail {
+    margin-bottom: 1rem; } }
 
 .footer {
   height: 220px;
