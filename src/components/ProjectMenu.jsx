@@ -1,5 +1,6 @@
 import React from 'react'
 import Waypoint from 'react-waypoint'
+import ReactMarkdown from 'react-markdown'
 
 import projects from '../projects'
 
@@ -21,6 +22,7 @@ export default class extends React.Component {
               <li key={idx}>
                 <span><a href={proj.url}>{proj.name}</a></span>
                 <span>{proj.type}</span>
+                <p className="project-desc"><ReactMarkdown className="desc" source={proj.desc} /></p>                              
               </li>
             ))
           }

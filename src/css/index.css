@@ -64,6 +64,23 @@ ul.leaders span + span {
   padding-left: 0.33em;
   background: #ffffff; }
 
+ul.leaders li p.project-desc {
+  max-height: 0px;
+  margin: 0;
+  overflow: hidden;
+  -webkit-transition: max-height 4s ease;
+  transition: max-height 4s ease;
+  line-height: 1.6rem;
+  padding-left: 1rem;
+  font-family: 'graphik', 'Open Sans', sans-serif;
+  border-left: 4px solid white; }
+
+ul.leaders li:hover .project-desc {
+  margin: 0;
+  max-height: 1000px;
+  padding-left: 1rem;
+  border-left: 4px solid blue; }
+
 .links a {
   padding: 0.4rem;
   border-bottom: 1px solid black;
@@ -93,5 +110,17 @@ ul.leaders span + span {
   margin-bottom: 4rem; }
 
 .footer {
-  height: 200px;
-  color: #684949; }
+  height: 220px;
+  color: white;
+  text-align: center; }
+
+.footer h2 {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 2rem;
+  margin-bottom: 0px;
+  padding-bottom: 0;
+  z-index: 1000; }
+
+.footer svg {
+  z-index: -1;
+  margin: auto; }
