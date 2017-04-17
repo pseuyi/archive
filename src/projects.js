@@ -52,7 +52,7 @@ export default [
     desc: 'draw paths between various locations in nyc. location data comes from queries to the foursquare api.'
   },
   {
-    url: 'https://stormy-forest-41556.herokuapp.com/products',
+    url: 'https://carefull-box.herokuapp.com/',
     name: 'carefull box',
     giturl: 'https://github.com/pseuyi/carefull_boxxes',
     type: 'e-commerce',
