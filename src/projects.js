@@ -1,5 +1,12 @@
 // array of project objects
 export default [
+  {
+      url: 'https://lemolemo.herokuapp.com/',
+      name: 'fwhisper',
+      giturl: 'https://github.com/everett980/lemo',
+      type: 'hackathon',
+      desc: 'fwhisper is a remote game that analyzes facial sentiments to generate clues as gifs from the giphy api. subsequent players must try to make a face to match the generated gif.'
+    },
 {
     url: 'http://pseuyi.xyz/e-doser',
     name: 'e-doser',
