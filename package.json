@@ -29,5 +29,5 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://pseuyi.xyz/"
+  "homepage": "https://pseuyi.github.io/pseuyi.xyz"
 }
